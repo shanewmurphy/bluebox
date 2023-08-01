@@ -25,7 +25,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 358px) {
+@media screen and (max-width: 411px) {
+  h1 {
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 390px) {
+  h1 {
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 360px) {
   h1 {
     line-height: 32px;
   }
