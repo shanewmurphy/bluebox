@@ -22,8 +22,11 @@ module.exports = {
         backgroudPage: "#fdfdfd",
         gradientBlue: "#E9EBFB",
         gradientWhite: "#F6F8FD",
+        textGradientBlue: "#45BBFD",
+        textGradientPurple: "#5D60F6",
       },
       fontSize: {
+        "7xl": "2.986rem",
         "6xl": "2.488rem",
         "5xl": "2.074rem",
         "4xl": "1.728rem",

@@ -8,22 +8,8 @@ body {
   margin: 0;
   background-color: #fdfdfd;
 }
-.image_fill {
-  width: 100vw;
-  object-fit: fill;
-}
-
-.hero_bg_image img {
-  max-width: 100%;
-  height: auto;
-}
-.hero_bg_image {
-  width: 100%;
-  height: 396px;
-  background-image: url("/Hero_02-min.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+img {
+  margin: 0 auto;
 }
 @media screen and (max-width: 411px) {
   h1 {

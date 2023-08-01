@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "@/components/Hero";
+import Intro from "@/components/Intro";
 export default function Home() {
   return (
     <div>
@@ -12,6 +13,9 @@ export default function Home() {
       <div>
         <div>
           <Hero />
+        </div>
+        <div>
+          <Intro />
         </div>
       </div>
     </div>
