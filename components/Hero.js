@@ -15,10 +15,10 @@ export default function Hero() {
           </div>
         </div>
         <div>
-          <h1 className="lg:text-6xl md:text-5xl sm:text-4xl lg:w-4/6 md:w-5/6 sm:w-64 mx-auto font-bold text-center text-black">
+          <h1 className="lg:text-6xl md:text-5xl sm:text-4xl lg:w-4/6 md:w-5/6 sm:w-64 mx-auto font-extrabold text-center text-black">
             Your Belongings, Our Priority
           </h1>
-          <h4 className="lg:text-4xl md:text-3xl sm:text-base font-semibold text-center text-gray mt-2 antialiased">
+          <h4 className="lg:text-4xl md:text-3xl sm:text-base font-bold text-center text-gray mt-2 antialiased">
             Your Trusted Storage Solution
           </h4>
           <div className="lg:w-80 md:w-60 sm:w-56 mx-auto mt-8">

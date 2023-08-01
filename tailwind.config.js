@@ -19,11 +19,10 @@ module.exports = {
         black: "#423937",
         gray: "#494554",
         green: "#12DDB9",
+        BkColor: "#EEF0FB",
         backgroudPage: "#fdfdfd",
         gradientBlue: "#E9EBFB",
         gradientWhite: "#F6F8FD",
-        textGradientBlue: "#45BBFD",
-        textGradientPurple: "#5D60F6",
       },
       fontSize: {
         "7xl": "2.986rem",

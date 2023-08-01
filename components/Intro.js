@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Intro() {
   return (
-    <div className="w-11/12 mx-auto lg:mt-40 md:mt-40 sm:mt-28 mb-40 antialiased">
+    <div className="w-11/12 mx-auto lg:mt-40 md:mt-40 sm:mt-28 mb-60 antialiased">
       <div className="lg:w-8/12 md:w-10/12 sm:w-11/12 mx-auto">
         <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-center font-extrabold text-blue lg:mb-2 md:mb-4 sm:mb-4">
           Unlock the Space You Need
