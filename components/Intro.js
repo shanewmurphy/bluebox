@@ -14,7 +14,7 @@ export default function Intro() {
             alt="blue box storage"
           />
         </div>
-        <p className="text-center lg:text-3xl md:text-3xl sm:text-sm text-gray leading-tight font-semibold lg:mt-4 md:mt-4 sm:mt-2">
+        <p className="text-center lg:text-3xl md:text-3xl sm:text-base text-gray lg:leading-tight md:leading-tight sm:leading-normal font-semibold lg:mt-4 md:mt-4 sm:mt-2">
           Our competitive rates and flexible payment options ensure you get the
           best value for your storage needs, without any surprises
         </p>
