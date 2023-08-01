@@ -18,11 +18,11 @@ export default function Hero() {
           <h1 className="lg:text-6xl md:text-4xl sm:text-4xl lg:w-4/6 md:w-4/6 sm:w-64 mx-auto font-bold text-center text-black">
             Your Belongings, Our Priority
           </h1>
-          <h4 className="lg:text-4xl md:text-3xl sm:text-base font-semibold text-center text-gray">
+          <h4 className="lg:text-4xl md:text-3xl sm:text-base font-semibold text-center text-gray mt-2">
             Your Trusted Storage Solution
           </h4>
-          <div className="lg:w-80 mx-auto mt-8">
-            <button className="bg-blue text-white text-2xl font-semibold w-full rounded-md py-4">
+          <div className="lg:w-80 md:w-60 sm:w-52 mx-auto mt-8">
+            <button className="bg-blue text-white lg:text-2xl md:text-2xl sm:text-base font-semibold w-full rounded-md py-4">
               Select Your Container
             </button>
           </div>
