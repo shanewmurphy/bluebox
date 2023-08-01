@@ -1,26 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fdfdfd;
+}
+.image_fill {
+  width: 100vw;
+  object-fit: fill;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hero_bg_image img {
+  max-width: 100%;
+  height: auto;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.hero_bg_image {
+  width: 100%;
+  height: 396px;
+  background-image: url("/Hero_02-min.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
