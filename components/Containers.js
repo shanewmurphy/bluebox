@@ -3,18 +3,18 @@ export default function ContainerSizes() {
   return (
     <div className="w-11/12 mx-auto mb-40 antialiased">
       <div>
-        <h2 className="text-center lg:text-6xl md:text-5xl sm:text-4xl text-black font-extrabold">
-          Our Storage Options
+        <h2 className="text-center lg:text-7xl md:text-5xl sm:text-5xl text-black font-extrabold">
+          Storage Options
         </h2>
-        <p className="text-center lg:text-2xl md:text-2xl sm:text-base text-gray lg:w-8/12 md:w-10/12 font-semibold mx-auto mb-8">
+        <p className="text-center lg:text-2xl md:text-2xl sm:text-sm text-gray lg:w-8/12 md:w-10/12 font-semibold mx-auto lg:leading-normal md:leading-normal sm:leading-normal mb-8">
           We offer a wide range of container types, sizes. Whether you require
           short-term or long-term storage, we have the flexibility to
           accommodate your requirements
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-rows-3 gap-4 lg:space-y-0 md:space-y-0 sm:space-y-12">
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-rows-1 gap-4 lg:space-y-0 md:space-y-0 sm:space-y-12">
         <div>
-          <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9 sm:pb-12">
+          <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
             <h3 className="text-center text-black text-7xl font-bold">8FT</h3>
             <div>
               <Image
@@ -41,7 +41,7 @@ export default function ContainerSizes() {
           </div>
         </div>
         <div>
-          <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9 sm:pb-12">
+          <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
             <h3 className="text-center text-black text-7xl font-bold">20FT</h3>
             <div>
               <Image
