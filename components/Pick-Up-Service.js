@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function PickUp() {
   return (
-    <div className="w-11/12 mx-auto rounded-xl lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-2 antialiased">
+    <div className="w-11/12 mx-auto rounded-xl lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-0 antialiased">
       <div>
         <div class="flex lg:flex-row md:flex-row sm:flex-col gap-8">
           <div className="basis-2/5 lg:order-1 md:order-1 sm:order-2">
@@ -28,18 +28,34 @@ export default function PickUp() {
               bring our reliable vans right to your doorstep, making your
               storage experience seamless from start to finish.
             </p>
-            <div className="lg:my-4 md:my-4 sm:mt-8">
-              <h4 className="lg:text-2xl md:text-2xl sm:text-2xl text-blue font-extrabold mt-2 antialiased">
+            <div className="lg:my-4 md:my-4 sm:mt-8 mb-2">
+              <h4 className="lg:text-2xl md:text-2xl sm:text-base text-blue font-extrabold mt-2 antialiased">
                 Select this option in the Quotation Form
               </h4>
-              <div className="float-left">
-                <Image
-                  src="/Form_pick_up_01.png"
-                  objectFit="cover"
-                  width={391}
-                  height={87}
-                  alt="blue box form"
-                />
+              <div className="">
+                <p className="lg:text-base md:text-base sm:text-sm font-bold text-black">
+                  Do you require our transportation services?
+                  <span className="pl-1">
+                    <Image
+                      className="inline-flex mb-4"
+                      src="/question_mark.svg"
+                      width={20}
+                      height={20}
+                    />
+                  </span>
+                </p>
+                <div className="flex flex-row gap-4">
+                  <div className="basis-20 mt-2">
+                    <button className="cursor-none py-1 px-9 text-xl font-bold text-black rounded-md outline outline-2 outline-gray-300">
+                      No
+                    </button>
+                  </div>
+                  <div className="basis-20 mt-2">
+                    <button className="cursor-none py-1 px-9 text-xl font-bold text-white rounded-md bg-blue outline outline-2 outline-blue">
+                      Yes
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

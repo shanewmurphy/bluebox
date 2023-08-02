@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function ContainerSizes() {
   return (
-    <div className="w-11/12 mx-auto lg:my-60 md:my-32 sm:my-0 antialiased">
+    <div className="w-11/12 mx-auto lg:my-60 md:my-32 sm:mb-0 antialiased">
       <div>
         <h2 className="text-center lg:text-7xl md:text-5xl sm:text-5xl text-black font-extrabold">
           Storage Options
@@ -15,7 +15,9 @@ export default function ContainerSizes() {
       <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-rows-1 gap-4 lg:space-y-0 md:space-y-0 sm:space-y-12">
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
-            <h3 className="text-center text-black text-7xl font-bold">8FT</h3>
+            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+              8FT
+            </h3>
             <div>
               <Image
                 className="max-h-36"
@@ -43,7 +45,9 @@ export default function ContainerSizes() {
         </div>
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
-            <h3 className="text-center text-black text-7xl font-bold">20FT</h3>
+            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+              20FT
+            </h3>
             <div className="lg:mb-0 md:mb-2 sm:mb-0">
               <Image
                 className="max-h-36"
@@ -71,7 +75,9 @@ export default function ContainerSizes() {
         </div>
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9 sm:pb-12">
-            <h3 className="text-center text-black text-7xl font-bold">40FT</h3>
+            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+              40FT
+            </h3>
             <div>
               <Image
                 className="max-h-36 mb-2"
