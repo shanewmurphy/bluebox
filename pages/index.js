@@ -5,6 +5,7 @@ import Intro from "@/components/Intro";
 import ContainerSizes from "@/components/Containers";
 import Security from "@/components/Security";
 import PickUp from "@/components/Pick-Up-Service";
+import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <div>
@@ -28,6 +29,9 @@ export default function Home() {
         </div>
         <div>
           <PickUp />
+        </div>
+        <div>
+          <Contact />
         </div>
       </div>
     </div>
