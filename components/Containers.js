@@ -18,6 +18,7 @@ export default function ContainerSizes() {
             <h3 className="text-center text-black text-7xl font-bold">8FT</h3>
             <div>
               <Image
+                className="max-h-36"
                 src="/8ft_Container-min.png"
                 width={180}
                 height={140}
@@ -43,8 +44,9 @@ export default function ContainerSizes() {
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
             <h3 className="text-center text-black text-7xl font-bold">20FT</h3>
-            <div className="md:mb-2">
+            <div className="lg:mb-0 md:mb-2 sm:mb-0">
               <Image
+                className="max-h-36"
                 src="/20ft_Container-min.png"
                 width={245}
                 height={141}
@@ -72,7 +74,7 @@ export default function ContainerSizes() {
             <h3 className="text-center text-black text-7xl font-bold">40FT</h3>
             <div>
               <Image
-                className="mb-2"
+                className="max-h-36 mb-2"
                 src="/40ft_Container-min.png"
                 width={230}
                 height={133}
