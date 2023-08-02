@@ -26,4 +26,7 @@ img {
   h1 {
     line-height: 36px;
   }
+  h3 {
+    line-height: 2rem;
+  }
 }
