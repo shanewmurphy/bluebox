@@ -34,7 +34,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray w-72 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-72 mx-auto">
               This container size can typically hold the contents of a studio
               apartment or a small office space.
             </p>
@@ -43,7 +43,7 @@ export default function ContainerSizes() {
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
             <h3 className="text-center text-black text-7xl font-bold">20FT</h3>
-            <div>
+            <div className="md:mb-2">
               <Image
                 src="/20ft_Container-min.png"
                 width={245}
@@ -61,7 +61,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray w-72 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 mx-auto">
               It can hold the contents of a one-to-two-bedroom apartment, a
               small vehicle, or around 10 standard pallets.
             </p>
@@ -89,7 +89,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray w-72 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-72 mx-auto">
               It can accommodate the contents of a three-to-four-bedroom house,
               multiple vehicles, or approximately 21 pallets.
             </p>

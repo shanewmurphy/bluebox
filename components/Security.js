@@ -14,7 +14,7 @@ export default function Security() {
             alt="Blue Box security"
           />
         </div>
-        <div className="w-11/12 mx-auto mt-12 mb-16">
+        <div className="w-11/12 mx-auto lg:mt-12 lg:mb-16 md:mt-8 md:mb-8 sm:mt-6 sm:mb-8">
           <div className="grid lg:grid-cols-2 md:grid-col-2 sm:grid-row-1 lg:gap-x-16 lg:gap-y-6 md:gap-x-16 sm:gap-y-6">
             <div>
               <h5 className="text-black font-bold lg:text-2xl md:text-2xl sm:text-base">
