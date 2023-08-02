@@ -20,6 +20,7 @@ module.exports = {
         gray: "#494554",
         green: "#12DDB9",
         BkColor: "#EEF0FB",
+        bkgGray: "#EFF0F4",
         backgroudPage: "#fdfdfd",
         gradientBlue: "#E9EBFB",
         gradientWhite: "#F6F8FD",

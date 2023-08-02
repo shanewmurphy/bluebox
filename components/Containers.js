@@ -1,12 +1,12 @@
 import Image from "next/image";
 export default function ContainerSizes() {
   return (
-    <div className="w-11/12 mx-auto mb-40 antialiased">
+    <div className="w-11/12 mx-auto lg:mb-60 antialiased">
       <div>
         <h2 className="text-center lg:text-7xl md:text-5xl sm:text-5xl text-black font-extrabold">
           Storage Options
         </h2>
-        <p className="text-center lg:text-2xl md:text-2xl sm:text-sm text-gray lg:w-8/12 md:w-10/12 font-semibold mx-auto lg:leading-normal md:leading-normal sm:leading-normal mb-8">
+        <p className="text-center lg:text-2xl md:text-2xl sm:text-sm text-gray lg:w-8/12 md:w-10/12 sm:w-11/12 font-bold mx-auto lg:leading-normal md:leading-normal sm:leading-normal mb-8">
           We offer a wide range of container types, sizes. Whether you require
           short-term or long-term storage, we have the flexibility to
           accommodate your requirements
