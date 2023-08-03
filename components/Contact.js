@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="w-11/12 mx-auto bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-6 antialiased">
+    <div className="w-11/12 mx-auto rounded-xl bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-6 antialiased">
       <div className="flex lg:flex-row md:flex-row sm:flex-col">
         <div className="basis-7/12">
           <h3 className="font-extrabold text-black lg:text-4xl md:text-3xl sm:text-4xl">
@@ -16,7 +16,7 @@ export default function Contact() {
           </h3>
           <p className="text-gray font-medium text-xl">info@bluebox.ie</p>
           <p className="mt-4 font-bold text-black text-xl">Business Hours</p>
-          <p className="font-medium text-gray text-base">
+          <p className="font-medium text-gray text-sm">
             Monday - Friday: 9:00am to 6:00pm
           </p>
         </div>

@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div>
-      <div className="w-11/12 mx-auto mt-6 bg-gradient-to-r from-gradientBlue to-gradientWhite lg:p-16 md:p-12 sm:p-4 sm:pb-14 sm:pt-14 rounded-xl antialiased">
-        <div className="lg:w-7/12 md:w-7/12 sm:w-10/12 mx-auto lg:mb-2 md:mb-2 sm:mb-4">
+      <div className="w-11/12 mx-auto mt-6 bg-gradient-to-r from-gradientBlue to-gradientWhite lg:p-16 md:p-12 sm:p-2 sm:pb-14 sm:pt-14 rounded-xl antialiased">
+        <div className="lg:w-7/12 md:w-7/12 sm:w-full mx-auto lg:mb-2 md:mb-2 sm:mb-4">
           <div>
             <Image
               src="/Hero_min.png"

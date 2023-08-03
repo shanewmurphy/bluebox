@@ -3,7 +3,7 @@ export default function PickUp() {
   return (
     <div className="w-11/12 mx-auto rounded-xl lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-0 antialiased">
       <div>
-        <div class="flex lg:flex-row md:flex-row sm:flex-col gap-8">
+        <div className="flex lg:flex-row md:flex-row sm:flex-col gap-8">
           <div className="basis-2/5 lg:order-1 md:order-1 sm:order-2">
             <div>
               <Image
@@ -45,13 +45,13 @@ export default function PickUp() {
                   </span>
                 </p>
                 <div className="flex flex-row gap-4">
-                  <div className="basis-20 mt-2">
-                    <button className="cursor-none py-1 px-9 text-xl font-bold text-black rounded-md outline outline-2 outline-gray-300">
+                  <div className="basis-20 lg:mt-2 sm:mt-1">
+                    <button className="cursor-none lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-bold text-black rounded-md outline outline-2 outline-gray-300">
                       No
                     </button>
                   </div>
-                  <div className="basis-20 mt-2">
-                    <button className="cursor-none py-1 px-9 text-xl font-bold text-white rounded-md bg-blue outline outline-2 outline-blue">
+                  <div className="basis-20 lg:mt-2 sm:mt-1">
+                    <button className="cursor-none cursor_svg lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-bold text-white rounded-md bg-blue outline outline-2 outline-blue">
                       Yes
                     </button>
                   </div>

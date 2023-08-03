@@ -37,7 +37,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-72 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               This container size can typically hold the contents of a studio
               apartment or a small office space.
             </p>
@@ -67,7 +67,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               It can hold the contents of a one-to-two-bedroom apartment, a
               small vehicle, or around 10 standard pallets.
             </p>
@@ -97,7 +97,7 @@ export default function ContainerSizes() {
             <h4 className="text-center text-3xl text-black font-bold mt-4">
               Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-72 mx-auto">
+            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               It can accommodate the contents of a three-to-four-bedroom house,
               multiple vehicles, or approximately 21 pallets.
             </p>

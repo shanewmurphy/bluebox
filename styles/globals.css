@@ -12,6 +12,12 @@ body {
 img {
   margin: 0 auto;
 }
+.cursor_svg {
+  background-image: url("/Cursor.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+}
 @media screen and (max-width: 411px) {
   h1 {
     line-height: 36px;
