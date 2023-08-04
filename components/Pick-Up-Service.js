@@ -33,27 +33,29 @@ export default function PickUp() {
                 Select this option in the Quotation Form
               </h4>
               <div className="">
-                <p className="lg:text-base md:text-base sm:text-sm font-bold text-black">
-                  Do you require our transportation services?
-                  <span className="pl-1">
-                    <Image
-                      className="inline-flex mb-4"
-                      src="/question_mark.svg"
-                      width={20}
-                      height={20}
-                    />
-                  </span>
-                </p>
-                <div className="flex flex-row gap-4">
-                  <div className="basis-20 lg:mt-2 sm:mt-1">
-                    <button className="cursor-none lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-bold text-black rounded-md outline outline-2 outline-gray-300">
-                      No
-                    </button>
-                  </div>
-                  <div className="basis-20 lg:mt-2 sm:mt-1">
-                    <button className="cursor-none cursor_svg lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-bold text-white rounded-md bg-blue outline outline-2 outline-blue">
-                      Yes
-                    </button>
+                <div className="lg:py-1 lg:px-1 sm:py-1 sm:px-2">
+                  <p className="lg:text-sm md:text-sm sm:text-sm font-bold text-gray">
+                    Do you require our transportation services?
+                    <span className="pl-1">
+                      <Image
+                        className="inline-flex mb-4"
+                        src="/question_mark.svg"
+                        width={20}
+                        height={20}
+                      />
+                    </span>
+                  </p>
+                  <div className="flex flex-row gap-4">
+                    <div className="basis-20 lg:mt-2 sm:mt-1">
+                      <button className="cursor-none lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-bold text-black rounded-md outline outline-2 outline-gray-300">
+                        No
+                      </button>
+                    </div>
+                    <div className="basis-20 lg:mt-2 sm:mt-1">
+                      <button className="cursor-none cursor_svg lg:py-1 lg:px-9 sm:py-1 sm:px-7 lg:text-xl sm:text-sm font-medium text-white rounded-md bg-blue outline outline-2 outline-blue">
+                        Yes
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

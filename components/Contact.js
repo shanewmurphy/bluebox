@@ -14,7 +14,9 @@ export default function Contact() {
           <h3 className="font-extrabold text-black lg:text-4xl md:text-4xl sm:text-4xl mt-4">
             0214 450 450
           </h3>
-          <p className="text-gray font-medium text-xl">info@bluebox.ie</p>
+          <p className="text-gray font-medium text-xl">
+            info@blueboxstorage.ie
+          </p>
           <p className="mt-4 font-bold text-black text-xl">Business Hours</p>
           <p className="font-medium text-gray text-sm">
             Monday - Friday: 9:00am to 6:00pm
