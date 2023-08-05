@@ -4,9 +4,9 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import ContainerSizes from "@/components/Containers";
 import Security from "@/components/Security";
-import PickUp from "@/components/Pick-Up-Service";
-import PickUpTwo from "@/components/PIck-Up_Purple";
+import PickUpService from "@/components/PIck-Up-Service";
 import Contact from "@/components/Contact";
+import FAQCommon from "@/components/FAQ/Common";
 export default function Home() {
   return (
     <div>
@@ -29,13 +29,13 @@ export default function Home() {
           <Security />
         </div>
         <div>
-          <PickUp />
-        </div>
-        <div>
-          <PickUpTwo />
+          <PickUpService />
         </div>
         <div>
           <Contact />
+        </div>
+        <div>
+          <FAQCommon />
         </div>
       </div>
     </div>

@@ -6,7 +6,8 @@
       "@/lib/*": ["lib/*"],
       "@/Data/*": ["Data/*"],
       "@/hooks/*": ["hooks/*"],
-      "@/Layout/*": ["Layout/*"]
+      "@/Layout/*": ["Layout/*"],
+      "@Data/*": ["Data"]
     }
   }
 }

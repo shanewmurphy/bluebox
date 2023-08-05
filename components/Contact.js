@@ -14,7 +14,7 @@ export default function Contact() {
           <h3 className="font-extrabold text-black lg:text-4xl md:text-4xl sm:text-4xl mt-4">
             0214 450 450
           </h3>
-          <p className="text-gray font-medium text-xl">
+          <p className="text-gray font-medium lg:text-xl md:text-sm">
             info@blueboxstorage.ie
           </p>
           <p className="mt-4 font-bold text-black text-xl">Business Hours</p>
