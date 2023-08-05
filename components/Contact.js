@@ -29,6 +29,7 @@ export default function Contact() {
               src="/Customer_service_02.png"
               width={420}
               height={335}
+              alt="Blue box customer service"
             />
           </div>
         </div>

@@ -9,13 +9,10 @@ export default function FAQCommon() {
           Questions & Answers
         </h2>
         {common.map((common) => (
-          <Disclosure>
+          <Disclosure key={common.id}>
             {({ open }) => (
               <>
-                <Disclosure.Button
-                  className="flex items-center lg:w-full md:w-full sm:w-full mx-auto mb-4 justify-between rounded-lg bg-bkgGray lg:px-6 lg:py-4 md:px-6 md:py-6 sm:px-4 sm:py-4 text-left lg:text-base md:text-base sm:text-xs font-semibold text-gray hover:bg-bkgGray"
-                  key={common.id}
-                >
+                <Disclosure.Button className="flex items-center lg:w-full md:w-full sm:w-full mx-auto mb-4 justify-between rounded-lg bg-bkgGray lg:px-6 lg:py-4 md:px-6 md:py-6 sm:px-4 sm:py-4 text-left lg:text-base md:text-base sm:text-xs font-semibold text-gray hover:bg-bkgGray">
                   <span className="sm:pr-4">{common.Question}</span>
                   <ChevronUpIcon
                     className={`${
