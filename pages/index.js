@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
 import ContainerSizes from "@/components/Containers";
 import Security from "@/components/Security";
-import PickUpService from "@/components/PIck-Up-Service";
+import PickUpService from "@/components/Pick-Up-Service";
 import Contact from "@/components/Contact";
 import FAQCommon from "@/components/FAQ/Common";
 export default function Home() {
