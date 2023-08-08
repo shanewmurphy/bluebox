@@ -17,7 +17,7 @@ export default function FAQCommon() {
                   <ChevronUpIcon
                     className={`${
                       open ? "rotate-180 transform" : ""
-                    } h-8 w-8 text-gray`}
+                    } lg:h-8 lg:w-8 sm:h-8 sm:w-8 text-gray`}
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="lg:pb-4 lg:pl-8 md:pb-4 md:pl-4 lg:pr-8 md:pr-8 sm:pl-2 sm:pb-4 sm:pr-4">

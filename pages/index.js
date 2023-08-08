@@ -7,6 +7,7 @@ import Security from "@/components/Security";
 import PickUpService from "@/components/Pick-Up-Service";
 import Contact from "@/components/Contact";
 import FAQCommon from "@/components/FAQ/Common";
+import Testimonials from "@/components/Testimonials/Testimonials";
 export default function Home() {
   return (
     <div>
@@ -36,6 +37,9 @@ export default function Home() {
         </div>
         <div>
           <FAQCommon />
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </div>
     </div>
