@@ -30,13 +30,13 @@ export default function Testimonials() {
           >
             {testimonials.map((testimonials) => {
               return (
-                <div>
+                <div key={testimonials.ID}>
                   <SwiperSlide className="bg-blue mb-16 rounded-lg lg:py-12 lg:px-12 lg:h-1/3 relative">
                     <p
                       className="text-white text-center h-44 text-base font-medium"
                       key={testimonials.ID}
                     >
-                      "{testimonials.Comment}"
+                      {testimonials.Comment}
                     </p>
                     <p className="mt-6 text-white text-center">
                       {testimonials.Name}
@@ -63,13 +63,16 @@ export default function Testimonials() {
         >
           {testimonials.map((testimonials) => {
             return (
-              <div>
-                <SwiperSlide className="bg-blue mb-16 rounded-lg px-6 py-6 relative">
+              <div key={testimonials.ID}>
+                <SwiperSlide
+                  className="bg-blue mb-16 rounded-lg px-6 py-6 relative"
+                  key={testimonials.ID}
+                >
                   <p
                     className="text-white text-center h-56 font-medium text-sm"
                     key={testimonials.ID}
                   >
-                    "{testimonials.Comment}"
+                    {testimonials.Comment}
                   </p>
                   <p className="mt-6 text-white text-center">
                     {testimonials.Name}
