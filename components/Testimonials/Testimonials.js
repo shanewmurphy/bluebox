@@ -1,4 +1,4 @@
-import testimonials from "@/Data/Testimonials.json";
+import testimonials from "@/Data/testimonials.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperBtns from "./Swiper-Btns";
 
