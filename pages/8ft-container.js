@@ -5,9 +5,9 @@ export default function EightFTContainer() {
     <div>
       <div className="w-11/12 mx-auto mt-16 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-2xl md:rounded-xl sm:rounded-md antialiased">
         <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-8 sm:gap-6">
-          <div className="basis-2/5 rounded-md bg-white lg:pl-8 lg:pt-16 md:pl-36 md:pt-16 sm:pl-4 sm:py-16">
+          <div className="basis-2/5 rounded-md bg-white  p-4">
             <Image
-              className="m-0 object-center"
+              className="m-0 mx-auto lg:mt-16"
               src="/8ft_container_Blue-min.png"
               width={320}
               height={248}
@@ -21,7 +21,7 @@ export default function EightFTContainer() {
             <h6 className="font-semibold text-base text-black">
               Compact and Convenient
             </h6>
-            <h5 className="lg:mt-4 md:mt-4 sm:mt-2 lg:text-2xl md:text-2xl sm:text-2xl font-bold text-black">
+            <h5 className="lg:mt-4 md:mt-4 sm:mt-4 lg:text-2xl md:text-2xl sm:text-2xl font-bold text-black">
               Key Features
             </h5>
             <p className="font-semibold lg:text-base md:text-base sm:text-sm text-black">
@@ -41,7 +41,7 @@ export default function EightFTContainer() {
               </Link>
               , our 8ft container provides a secure storage solution.
             </p>
-            <div className="mt-8 lg:text-left md:text-center sm:text-center">
+            <div className="lg:mt-8 md:mt-8 sm:mt-14 lg:text-left md:text-center sm:text-center">
               <button className="lg:py-4 lg:px-16 md:py-4 md:px-16 sm:py-4 sm:px-12 sm:text-center bg-blue font-bold text-white text-2xl rounded-md antialiased">
                 Get a Quote
               </button>
@@ -62,9 +62,9 @@ export default function EightFTContainer() {
               height={233}
             />
           </div>
-          <div className="basis-3/5">
-            <h4 className="lg:text-4xl mb-2 md:text-4xl sm:text-4xl font-bold text-black">
-              8ft suitable for
+          <div className="basis-3/5 antialiased">
+            <h4 className="lg:text-4xl mb-2 md:text-4xl sm:text-4xl font-extrabold text-black">
+              8ft Container Suitability
             </h4>
             <p className="font-medium text-sm leading-relaxed text-gray lg:pr-16">
               An 8ft storage container is a versatile solution for storing a
