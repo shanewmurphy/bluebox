@@ -5,9 +5,6 @@ import SwiperBtns from "./Swiper-Btns";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { ArrowLeftCircle } from "@heroicons/react/24/outline";
-import { ArrowRightCircle } from "@heroicons/react/24/outline";
-
 export default function Testimonials() {
   return (
     <div>
@@ -15,8 +12,8 @@ export default function Testimonials() {
         <h5 className="text-center text-7xl text-black font-extrabold">
           Trusted Reputation
         </h5>
-        <p className="w-2/3 mx-auto text-center text-3xl font-senibold text-gray mb-8">
-          Count on us to handle your storage needs professionally and securely.
+        <p className="w-2/3 mx-auto text-center text-3xl font-bold text-gray mb-8">
+          Count on us to handle your storage needs professionally and securely
         </p>
         <div>
           <Swiper
@@ -42,7 +39,8 @@ export default function Testimonials() {
                       {testimonials.Name}
                     </p>
                   </SwiperSlide>
-                  <div className="h-14 absolute z-10">
+                  <div className="">
+                    <p>jjjjj</p>
                     <SwiperBtns />
                   </div>
                 </div>
@@ -57,9 +55,6 @@ export default function Testimonials() {
           slidesPerView={1}
           loop={true}
           pagination={{ clickable: true }}
-          className="swiper-container"
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {testimonials.map((testimonials) => {
             return (
@@ -69,7 +64,7 @@ export default function Testimonials() {
                   key={testimonials.ID}
                 >
                   <p
-                    className="text-white text-center h-56 font-medium text-sm"
+                    className="text-white text-center leading-relaxed h-56 font-medium text-sm"
                     key={testimonials.ID}
                   >
                     {testimonials.Comment}
