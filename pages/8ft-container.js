@@ -3,14 +3,14 @@ import Link from "next/link";
 export default function EightFTContainer() {
   return (
     <div>
-      <div className="w-11/12 mx-auto lg:mt-16 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-3xl md:rounded-2xl sm:rounded-md antialiased">
+      <div className="w-11/12 mx-auto mt-16 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-2xl md:rounded-xl sm:rounded-md antialiased">
         <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-8 sm:gap-6">
-          <div className="basis-2/5">
+          <div className="basis-2/5 rounded-md bg-white lg:pl-8 lg:pt-16 md:pl-36 md:pt-16 sm:pl-4 sm:py-16">
             <Image
-              className="object-cover m-0"
-              src="/8ft_B-min.png"
-              width={402}
-              height={378}
+              className="m-0 object-center"
+              src="/8ft_container_Blue-min.png"
+              width={320}
+              height={248}
               alt="8ft container"
             />
           </div>
@@ -45,7 +45,7 @@ export default function EightFTContainer() {
               <button className="lg:py-4 lg:px-16 md:py-4 md:px-16 sm:py-4 sm:px-12 sm:text-center bg-blue font-bold text-white text-2xl rounded-md antialiased">
                 Get a Quote
               </button>
-              <p className="mt-2 sm:mt-4  lg:pl-4 sm:mb-8 text-sm sm:text-xs font-semibold text-black underline">
+              <p className="mt-2 sm:mt-4  lg:pl-12 sm:mb-8 text-sm sm:text-xs font-semibold text-black underline">
                 View terms & conditions
               </p>
             </div>
@@ -63,8 +63,8 @@ export default function EightFTContainer() {
             />
           </div>
           <div className="basis-3/5">
-            <h4 className="lg:text-4xl font-bold text-black">
-              8ft Storage Container is suitable
+            <h4 className="lg:text-4xl mb-2 md:text-4xl sm:text-4xl font-bold text-black">
+              8ft suitable for
             </h4>
             <p className="font-medium text-sm leading-relaxed text-gray lg:pr-16">
               An 8ft storage container is a versatile solution for storing a
