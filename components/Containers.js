@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function ContainerSizes() {
   return (
     <div className="w-11/12 mx-auto lg:my-60 md:my-32 sm:mb-0 antialiased">
@@ -15,7 +16,7 @@ export default function ContainerSizes() {
       <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-rows-1 gap-4 lg:space-y-0 md:space-y-0 sm:space-y-12">
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
-            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+            <h3 className="text-center text-black lg:text-7xl md:text-5xl sm:text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-7">
               8FT
             </h3>
             <div>
@@ -34,10 +35,10 @@ export default function ContainerSizes() {
             </div>
           </div>
           <div>
-            <h4 className="text-center text-3xl text-black font-bold mt-4">
-              8FT Storage Capacity
+            <h4 className="text-center lg:text-3xl md:text-2xl sm:text-3xl text-black font-bold mt-4">
+              8ft Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
+            <p className="text-center lg:text-sm md:text-xs sm:text-sm  font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               This container size can typically hold the contents of a studio
               apartment or a small office space.
             </p>
@@ -45,7 +46,7 @@ export default function ContainerSizes() {
         </div>
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9">
-            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+            <h3 className="text-center text-black lg:text-7xl md:text-5xl sm:text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
               20FT
             </h3>
             <div className="lg:mb-0 md:mb-2 sm:mb-0">
@@ -64,10 +65,10 @@ export default function ContainerSizes() {
             </div>
           </div>
           <div>
-            <h4 className="text-center text-3xl text-black font-bold mt-4">
-              20FT Storage Capacity
+            <h4 className="text-center lg:text-3xl md:text-2xl sm:text-3xl text-black font-bold mt-4">
+              20ft Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
+            <p className="text-center lg:text-sm md:text-xs sm:text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               It can hold the contents of a one-to-two-bedroom apartment, a
               small vehicle, or around 10 standard pallets.
             </p>
@@ -75,7 +76,7 @@ export default function ContainerSizes() {
         </div>
         <div>
           <div className="bg-BkColor rounded-lg lg:py-8 md:py-8 sm:py-9 sm:pb-12">
-            <h3 className="text-center text-black text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
+            <h3 className="text-center text-black lg:text-7xl md:text-5xl sm:text-7xl font-bold lg:mb-0 md-mb-0 sm:mb-8">
               40FT
             </h3>
             <div>
@@ -94,10 +95,10 @@ export default function ContainerSizes() {
             </div>
           </div>
           <div>
-            <h4 className="text-center text-3xl text-black font-bold mt-4">
-              40FT Storage Capacity
+            <h4 className="text-center lg:text-3xl md:text-2xl sm:text-3xl text-black font-bold mt-4">
+              40ft Storage Capacity
             </h4>
-            <p className="text-center text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
+            <p className="text-center lg:text-sm md:text-xs sm:text-sm font-semibold text-gray lg:w-72 md:w-56 sm:w-10/12 mx-auto">
               It can accommodate the contents of a three-to-four-bedroom house,
               multiple vehicles, or approximately 21 pallets.
             </p>

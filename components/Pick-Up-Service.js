@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 export default function PickUpService() {
   return (
     <div className="w-11/12 mx-auto bg-blue rounded-xl lg:py-16 lg:px-16 md:py-12 md:px-12 sm:px-6 sm:py-6 antialiased">
@@ -27,6 +28,14 @@ export default function PickUpService() {
             bring our reliable vans right to your doorstep, making your storage
             experience seamless from start to finish.
           </p>
+          <div className="mt-8">
+            <button className="bg-white lg:text-2xl text-blue rounded-md font-bold lg:py-4 lg:px-12 md:py-4 md:px-12 sm:py-4 sm:px-8 flex justify-center items-center antialiased">
+              Learn More
+              <spam className="contents">
+                <ArrowRightIcon className="w-6 h-6 ml-2" />
+              </spam>
+            </button>
+          </div>
         </div>
       </div>
     </div>
