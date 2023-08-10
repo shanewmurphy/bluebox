@@ -20,8 +20,8 @@ export default function PickUpService() {
             Pick Up Service
           </h2>
           <h3 className="text-white font-bold lg:text-3xl md:text-2xl sm:text-3xl">
-            Let us handle the transportation logistics, saving you time and
-            effort
+            Leave the transportation logistics to us, and enjoy the benefits of
+            saved time and effort
           </h3>
           <p className="text-white font-medium leading-relaxed lg:text-base md:text-xs sm:text-sm mt-2">
             Select our convenient pick-up service, and our dedicated team will
