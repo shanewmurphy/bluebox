@@ -28,9 +28,9 @@ export default function Testimonials() {
             {testimonials.map((testimonials) => {
               return (
                 <div key={testimonials.ID}>
-                  <SwiperSlide className="bg-blue mb-16 rounded-lg lg:py-12 lg:px-12 lg:h-1/3 relative">
+                  <SwiperSlide className="bg-blue mb-16 rounded-lg lg:py-12 lg:px-12 md:py-6 md:px-6 lg:h-1/3 relative">
                     <p
-                      className="text-white text-center h-44 text-base font-medium"
+                      className="text-white text-center lg:h-44 md:h-52 lg:text-base md:text-sm sm:text-xs font-medium"
                       key={testimonials.ID}
                     >
                       {testimonials.Comment}

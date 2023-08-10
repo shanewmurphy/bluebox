@@ -16,7 +16,7 @@ export default function PickUpService() {
           </div>
         </div>
         <div className="basis-3/5 lg:order-2 md:order-1 sm:order-1">
-          <h2 className="lg:text-6xl md:text-5xl sm:text-5xl text-white font-extrabold lg:mb-2 md:mb-1">
+          <h2 className="lg:text-6xl md:text-4xl sm:text-5xl text-white font-extrabold lg:mb-2 md:mb-1">
             Pick Up Service
           </h2>
           <h3 className="text-white font-bold lg:text-3xl md:text-2xl sm:text-3xl">
