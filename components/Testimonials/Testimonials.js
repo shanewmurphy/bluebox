@@ -16,37 +16,39 @@ export default function Testimonials() {
           Count on us to handle your storage needs professionally and securely
         </p>
         <div>
-          <Swiper
-            spaceBetween={40}
-            slidesPerView={2}
-            loop={true}
-            pagination={{ clickable: true }}
-            className="swiper-container"
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
-            {testimonials.map((testimonials) => {
-              return (
-                <div key={testimonials.ID}>
-                  <SwiperSlide className="bg-blue mb-16 rounded-lg lg:py-12 lg:px-12 md:py-6 md:px-6 lg:h-1/3 relative">
-                    <p
-                      className="text-white text-center lg:h-44 md:h-52 lg:text-base md:text-sm sm:text-xs font-medium"
-                      key={testimonials.ID}
-                    >
-                      {testimonials.Comment}
-                    </p>
-                    <p className="mt-6 text-white text-center">
-                      {testimonials.Name}
-                    </p>
-                  </SwiperSlide>
-                  <div className="">
-                    <p>jjjjj</p>
-                    <SwiperBtns />
+          <>
+            <Swiper
+              spaceBetween={40}
+              slidesPerView={2}
+              loop={true}
+              pagination={{ clickable: true }}
+              className="swiper-container"
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              {testimonials.map((testimonials) => {
+                return (
+                  <div key={testimonials.ID}>
+                    <SwiperSlide className="bg-blue mb-16 rounded-lg lg:py-12 lg:px-12 md:py-6 md:px-6 lg:h-1/3 relative">
+                      <p
+                        className="text-white text-center lg:h-44 md:h-52 lg:text-base md:text-sm sm:text-xs font-medium"
+                        key={testimonials.ID}
+                      >
+                        {testimonials.Comment}
+                      </p>
+                      <p className="mt-6 text-white text-center">
+                        {testimonials.Name}
+                      </p>
+                    </SwiperSlide>
+                    <div className="">
+                      <p>jjjjj</p>
+                      <SwiperBtns />
+                    </div>
                   </div>
-                </div>
-              );
-            })}
-          </Swiper>
+                );
+              })}
+            </Swiper>
+          </>
         </div>
       </div>
       <div className="w-11/12 mx-auto lg:hidden md:hidden sm:block antialiased">
