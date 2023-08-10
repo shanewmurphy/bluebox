@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Security() {
   return (
-    <div className="w-11/12 mx-auto rounded-xl bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-2 antialiased">
+    <div className="w-11/12 mx-auto rounded-xl bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 lg:px-12 md:px-8 sm:px-2 sm:py-8 antialiased">
       <div>
         <h2 className="text-center text-black font-extrabold lg:text-7xl md:text-5xl sm:text-5xl antialiased">
           Security Features

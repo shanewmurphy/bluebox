@@ -61,7 +61,7 @@ export default function Testimonials() {
               <div key={testimonials.ID}>
                 <SwiperSlide
                   className="bg-blue mb-16 rounded-lg px-6 py-6 relative"
-                  key={testimonials.ID}
+                  key={testimonials.id}
                 >
                   <p
                     className="text-white text-center leading-relaxed h-56 font-medium text-sm"
