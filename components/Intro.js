@@ -6,7 +6,7 @@ export default function Intro() {
         <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-center font-extrabold text-blue lg:mb-2 md:mb-4 sm:mb-4">
           Unlock the Space You Need
         </h1>
-        <div className="w-11/12 mx-auto">
+        <div className="lg:w-11/12 md:w-11/12 sm:w-full mx-auto">
           <Image
             src="/Intro_img_02-min.png"
             width={723}
