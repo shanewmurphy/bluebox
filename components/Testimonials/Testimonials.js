@@ -1,11 +1,12 @@
 import testimonials from "@/Data/testimonials.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import SwiperBtns from "./Swiper-Btns";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/pagination";
 
-import SwiperBtns from "./Swiper-Btns";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function Testimonials() {
   return (
     <div>
@@ -52,10 +53,18 @@ export default function Testimonials() {
           </Swiper>
         </div>
       </div>
-      <div className="w-11/12 mx-auto">
+      <div className="w-11/12 mx-auto lg:hidden md:hidden sm:block">
+        <div>
+          <h5 className="text-center text-4xl text-black font-extrabold">
+            Trusted Reputation
+          </h5>
+          <p className="w-11/12 mx-auto text-center text-base font-bold text-gray mb-6">
+            Count on us to handle your storage needs professionally and securely
+          </p>
+        </div>
         <Swiper
-          spaceBetween={40}
-          slidesPerView={1}
+          slidesPerView={"auto"}
+          spaceBetween={10}
           loop={true}
           grabCursor={true}
           autoplay={{
@@ -75,7 +84,7 @@ export default function Testimonials() {
               key={testimonials.ID}
             >
               <p
-                className="text-gray text-center h-56 text-sm font-medium leading-relaxed"
+                className="text-gray text-center h-60 text-sm font-medium leading-relaxed"
                 key={testimonials.ID}
               >
                 {testimonials.Comment}

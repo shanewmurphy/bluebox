@@ -17,11 +17,17 @@ img {
   justify-content: center;
   align-items: center;
 }
+.mobile_swiper_slide {
+  width: 80%;
+}
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 411px) {
   h1 {
     line-height: 36px;
+  }
+  .swiper-slide {
+    width: 90% !important;
   }
 }
 @media screen and (max-width: 390px) {

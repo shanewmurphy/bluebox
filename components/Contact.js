@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="w-11/12 mx-auto rounded-xl bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-6 antialiased">
+    <div className="w-11/12 mx-auto rounded-xl bg-bkgGray lg:my-60 md:my-32 sm:my-24 lg:py-12 md:py-8 sm:py-8 lg:px-12 md:px-8 sm:px-4 antialiased">
       <div className="flex lg:flex-row md:flex-row sm:flex-col gap-6">
         <div className="basis-8/12">
           <h3 className="font-extrabold text-black lg:text-4xl md:text-2xl sm:text-4xl">
