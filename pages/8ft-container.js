@@ -5,6 +5,7 @@ import Security from "@/components/Security";
 import ContainerTerms from "@/components/Container-terms";
 import FAQCommon from "@/components/FAQ/Common";
 import Testimonials from "@/components/Testimonials/Testimonials";
+
 export default function EightFTContainer() {
   return (
     <div>
@@ -30,7 +31,8 @@ export default function EightFTContainer() {
               Key Features
             </h5>
             <p className="font-semibold lg:text-base md:text-base sm:text-sm text-black">
-              Dimensions: The 8ft container measures [dimensions] (L x W x H)
+              Dimensions: The 8ft container measures dimensions Lenght: 2.44m X
+              Width: 2.20m X Height: 2.26m
             </p>
             <p className="mt-2 font-semibold lg:text-base md:text-base sm:text-sm text-black">
               Storage Capacity: With a storage capacity of approximately hold

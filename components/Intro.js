@@ -1,5 +1,5 @@
 import Image from "next/image";
-import frontcontainer from "../public/frontcontainer.png";
+import frontcontainer from "../public/FrontContainer.png";
 export default function Intro() {
   return (
     <div className="w-11/12 mx-auto lg:mt-40 md:mt-40 sm:mt-28 lg:mb-60 md:mb-60 sm:mb-40 antialiased">
