@@ -61,7 +61,7 @@ export default function ContainerTerms() {
           <h6 className="text-3xl font-bold text-blue mb-1">Liability</h6>
           <p className="text-sm font-medium text-black mb-2">
             The Company shall not be held liable for any loss, damage, or theft
-            of Renter's stored belongings.
+            of Renter&apos;s stored belongings.
           </p>
           <p className="text-sm font-medium text-black">
             Renter is encouraged to secure appropriate insurance coverage for
