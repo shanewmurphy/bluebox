@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import PickUpService from "@/components/Pick-Up-Service";
+import Security from "@/components/Security";
+import ContainerTerms from "@/components/Container-terms";
+import FAQCommon from "@/components/FAQ/Common";
+import Testimonials from "@/components/Testimonials/Testimonials";
 export default function EightFTContainer() {
   return (
     <div>
@@ -83,6 +88,21 @@ export default function EightFTContainer() {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <Security />
+      </div>
+      <div>
+        <PickUpService />
+      </div>
+      <div>
+        <ContainerTerms />
+      </div>
+      <div>
+        <FAQCommon />
+      </div>
+      <div>
+        <Testimonials />
       </div>
     </div>
   );

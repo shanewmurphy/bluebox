@@ -1,4 +1,5 @@
 import Image from "next/image";
+import frontcontainer from "../public/frontcontainer.png";
 export default function Intro() {
   return (
     <div className="w-11/12 mx-auto lg:mt-40 md:mt-40 sm:mt-28 lg:mb-60 md:mb-60 sm:mb-40 antialiased">
@@ -8,10 +9,11 @@ export default function Intro() {
         </h1>
         <div className="lg:w-11/12 md:w-11/12 sm:w-full mx-auto">
           <Image
-            src="/Intro_img_02-min.png"
+            src={frontcontainer}
             width={723}
             height={293}
             alt="blue box storage"
+            priority
           />
         </div>
         <p className="text-center lg:text-4xl md:text-3xl sm:text-base text-gray lg:leading-tight md:leading-tight sm:leading-normal font-bold lg:mt-4 md:mt-4 sm:mt-2">

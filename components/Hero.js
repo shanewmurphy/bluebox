@@ -1,4 +1,5 @@
 import Image from "next/image";
+import hero from "../public/Hero.png";
 
 export default function Hero() {
   return (
@@ -7,10 +8,11 @@ export default function Hero() {
         <div className="lg:w-7/12 md:w-7/12 sm:w-full mx-auto lg:mb-2 md:mb-2 sm:mb-4">
           <div>
             <Image
-              src="/Hero_min.png"
+              src={hero}
               width={864}
               height={380}
               alt="bluebox storage container"
+              priority
             />
           </div>
         </div>
