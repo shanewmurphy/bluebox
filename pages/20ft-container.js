@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import twentyFtContainer from "../public/TwentyFtContainer.png";
+import twentyFtContainer from "../public/twentyFtContainer.png";
 
 import PickUpService from "@/components/Pick-Up-Service";
 import Security from "@/components/Security";
@@ -19,7 +19,7 @@ export default function TwentyFtContainer() {
               src={twentyFtContainer}
               width={335}
               height={193}
-              alt="8ft container"
+              alt="20ft blue box storage container"
               priority
             />
           </div>
