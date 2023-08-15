@@ -21,7 +21,7 @@ export default function TwentyFtContainer() {
               src={twentyFtContainer}
               width={335}
               height={193}
-              alt="20ft blue box storage container"
+              alt="twenthy foot blue box storage container"
               priority
             />
           </div>
@@ -70,6 +70,7 @@ export default function TwentyFtContainer() {
               src="/Opened_container-min.png"
               width={273}
               height={233}
+              alt="Blue Box Storage Containers"
             />
           </div>
           <div className="basis-3/5 antialiased">

@@ -16,10 +16,10 @@ export default function PickUpServicePage() {
               effort
             </h2>
             <p className="font-medium text-base text-gray">
-              Don't worry about renting a truck or lifting heavy boxes. Choose
-              our pick-up service when filling out the quote form, and our
-              professional team will take care of collecting your belongings and
-              transporting them to our secure storage facility.
+              Don&apos;t worry about renting a truck or lifting heavy boxes.
+              Choose our pick-up service when filling out the quote form, and
+              our professional team will take care of collecting your belongings
+              and transporting them to our secure storage facility.
             </p>
             <h4 className="font-bold text-blue lg:text-2xl md:text-3xl sm:text-2xl mt-4 line_height_h4">
               This service is only available when you rent a storage container

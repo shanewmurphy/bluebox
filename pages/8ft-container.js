@@ -19,7 +19,7 @@ export default function EightFTContainer() {
               src="/8ft_container_Blue-min.png"
               width={320}
               height={248}
-              alt="8ft container"
+              alt="Eight Foot container"
             />
           </div>
           <div className="basis-3/5">
