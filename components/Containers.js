@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function ContainerSizes() {
   return (
     <div className="w-11/12 mx-auto lg:my-60 md:my-32 sm:mb-0 antialiased">
@@ -29,9 +29,11 @@ export default function ContainerSizes() {
               />
             </div>
             <div className="text-center">
-              <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
-                View
-              </button>
+              <Link href="/8ft-container">
+                <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
+                  View
+                </button>
+              </Link>
             </div>
           </div>
           <div>
@@ -59,9 +61,11 @@ export default function ContainerSizes() {
               />
             </div>
             <div className="text-center">
-              <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
-                View
-              </button>
+              <Link href="/20ft-container">
+                <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
+                  View
+                </button>
+              </Link>
             </div>
           </div>
           <div>
@@ -89,9 +93,11 @@ export default function ContainerSizes() {
               />
             </div>
             <div className="text-center">
-              <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
-                View
-              </button>
+              <Link href="/40ft-container">
+                <button className="bg-blue text-white font-semibold text-base rounded-md py-2 w-36 mt-6">
+                  View
+                </button>
+              </Link>
             </div>
           </div>
           <div>

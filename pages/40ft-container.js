@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import forthyFtContainer from "../public/forthyFtContainer.png";
+
 import PickUpService from "@/components/Pick-Up-Service";
 import Security from "@/components/Security";
 import ContainerTerms from "@/components/Container-terms";
@@ -8,37 +10,39 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 
 import Layout from "@/components/Layout";
 
-export default function EightFTContainer() {
+export default function ForthyFtContainer() {
   return (
-    <Layout title="8ft Blue Box Storage Container">
+    <Layout title="40ft Storage Container">
       <div className="w-11/12 mx-auto mt-8 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-2xl md:rounded-xl sm:rounded-md antialiased">
         <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-8 sm:gap-6">
           <div className="basis-2/5 rounded-md bg-white p-4">
             <Image
-              className="m-0 mx-auto lg:mt-10"
-              src="/8ft_container_Blue-min.png"
-              width={320}
-              height={248}
-              alt="8ft container"
+              className="m-0 mx-auto lg:mt-20"
+              src={forthyFtContainer}
+              width={335}
+              height={193}
+              alt="20ft blue box storage container"
+              priority
             />
           </div>
           <div className="basis-3/5">
-            <h3 className="lg:text-5xl md:text-5xl sm:text-4xl font-extrabold text-black">
-              8ft Storage Container
+            <h3 className="lg:text-5xl md:text-5xl sm:text-3xl font-extrabold text-black">
+              40ft Storage Container
             </h3>
             <h6 className="font-semibold text-base text-black">
-              Compact and Convenient
+              Generous and Capacious
             </h6>
             <h5 className="lg:mt-4 md:mt-4 sm:mt-4 lg:text-2xl md:text-2xl sm:text-2xl font-bold text-black">
               Key Features
             </h5>
             <p className="font-semibold lg:text-base md:text-base sm:text-sm text-black">
-              Dimensions: The 8ft container measures dimensions Lenght: 2.44m X
-              Width: 2.20m X Height: 2.26m
+              Dimensions: The 20ft container measures dimensions Lenght: 5.90m X
+              Width: 2.35m X Height: 2.39m
             </p>
             <p className="mt-2 font-semibold lg:text-base md:text-base sm:text-sm text-black">
-              Storage Capacity: With a storage capacity of approximately hold
-              the contents of a studio apartment or a small office space
+              The 40ft container offers substantial space, making it suitable
+              for storing the contents of a three-to-four-bedroom house or large
+              equipment.
             </p>
             <p className="mt-2 font-semibold lg:text-base md:text-base sm:text-sm text-black">
               Security: Equipped with
@@ -48,7 +52,7 @@ export default function EightFTContainer() {
               >
                 security features
               </Link>
-              , our 8ft container provides a secure storage solution.
+              , our 20ft container provides a secure storage solution.
             </p>
             <div className="lg:mt-8 md:mt-8 sm:mt-12 sm:mb-8 lg:text-left md:text-center sm:text-center">
               <button className="lg:py-4 lg:px-16 md:py-4 md:px-16 sm:py-4 sm:px-12 sm:text-center bg-blue font-bold text-white text-2xl rounded-md antialiased">
@@ -69,26 +73,25 @@ export default function EightFTContainer() {
             />
           </div>
           <div className="basis-3/5 antialiased">
-            <h4 className="lg:text-5xl mb-2 md:text-4xl sm:text-4xl font-extrabold text-black">
-              8ft Container Suitability
+            <h4 className="lg:text-5xl mb-2 md:text-4xl sm:text-3xl font-extrabold text-black">
+              20ft Container Suitability
             </h4>
             <p className="font-medium text-sm leading-relaxed text-gray lg:pr-16">
-              An 8ft storage container is a versatile solution for storing a
-              range of items. It is suitable for small to medium-sized furniture
-              pieces, such as chairs, tables, and compact appliances.
+              Commercial businesses can rely on the 40ft container to store
+              substantial inventory, equipment, and supplies, while industrial
+              applications benefit from its ability to house large machinery,
+              construction materials, and industrial equipment. Moving and
+              logistics companies find the container invaluable for securely
+              storing household or commercial goods during transit or
+              relocations.
             </p>
             <p className="mt-4 font-medium leading-relaxed text-sm text-gray lg:pr-16">
-              Personal belongings like clothing, books, and toys can be easily
-              stored in this container. It&apos;s also ideal for seasonal items
-              such as holiday decorations, sports equipment, camping gear, and
-              gardening tools.
-            </p>
-            <p className="mt-4 font-medium leading-relaxed text-sm text-gray lg:pr-16">
-              For small businesses, the 8ft container provides space for office
-              supplies, inventory, and equipment. Whether you&apos;re moving,
-              renovating, or need additional storage for your belongings, the
-              8ft container offers a compact and secure solution to meet your
-              needs.
+              Offering approximately 2,390 cubic feet of storage space, the 40ft
+              container can accommodate the contents of a three-to-four-bedroom
+              house, making it suitable for residential storage as well. Whether
+              you need to store furniture, appliances, large machinery, or bulky
+              items, the 40ft container provides the secure, flexible, and
+              expansive storage solution you require.
             </p>
           </div>
         </div>

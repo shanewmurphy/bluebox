@@ -8,7 +8,9 @@ export default function ContainerTerms() {
       </div>
       <div class="grid lg:grid-cols-2 lg:gap-x-16 md:gap-x-8 lg:gap-y-8 md:gap-y-8 sm:gap-y-8">
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">Rental Period</h6>
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
+            Rental Period
+          </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs leading-relaxed font-medium text-black mb-2">
             The rental period commences on the agreed-upon start date and
             terminates on the specified end date as outlined in the rental
@@ -20,7 +22,9 @@ export default function ContainerTerms() {
           </p>
         </div>
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">Payment Terms</h6>
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
+            Payment Terms
+          </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs font-medium text-black mb-2">
             Renter agrees to pay the rental fee as specified in the rental
             agreement.
@@ -35,7 +39,9 @@ export default function ContainerTerms() {
           </p>
         </div>
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">Access and Use</h6>
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
+            Access and Use
+          </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs font-medium text-black mb-2">
             Renter is granted exclusive access to the rented storage container
             for the duration of the rental period.
@@ -46,7 +52,7 @@ export default function ContainerTerms() {
           </p>
         </div>
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
             Prohibited Items
           </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs font-medium text-black mb-2">
@@ -58,7 +64,9 @@ export default function ContainerTerms() {
           </p>
         </div>
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">Liability</h6>
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
+            Liability
+          </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs font-medium text-black mb-2">
             The Company shall not be held liable for any loss, damage, or theft
             of Renter&apos;s stored belongings.
@@ -69,7 +77,9 @@ export default function ContainerTerms() {
           </p>
         </div>
         <div>
-          <h6 className="text-3xl font-bold text-blue mb-1">Termination</h6>
+          <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue mb-1">
+            Termination
+          </h6>
           <p className="lg:text-sm md:text-sm sm:text-xs font-medium text-black mb-2">
             Either party may terminate the contract by providing written notice
             within the specified notice period as outlined in the agreement.
