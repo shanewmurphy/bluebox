@@ -21,13 +21,13 @@ export default function ForthyFtContainer() {
               src={forthyFtContainer}
               width={335}
               height={193}
-              alt="Blue Box Storage Containers"
+              alt="Forthy Foot Storage Container"
               priority
             />
           </div>
           <div className="basis-3/5">
-            <h3 className="lg:text-5xl md:text-5xl sm:text-3xl font-extrabold text-black">
-              40ft Storage Container
+            <h3 className="lg:text-6xl md:text-5xl sm:text-4xl font-extrabold text-black">
+              40ft Container
             </h3>
             <h6 className="font-semibold text-base text-black">
               Generous and Capacious

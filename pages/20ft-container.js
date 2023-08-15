@@ -26,8 +26,8 @@ export default function TwentyFtContainer() {
             />
           </div>
           <div className="basis-3/5">
-            <h3 className="lg:text-5xl md:text-5xl sm:text-3xl font-extrabold text-black">
-              20ft Storage Container
+            <h3 className="lg:text-6xl md:text-5xl sm:text-4xl font-extrabold text-black">
+              20ft Container
             </h3>
             <h6 className="font-semibold text-base text-black">
               Spacious and Versatile
@@ -70,7 +70,7 @@ export default function TwentyFtContainer() {
               src="/Opened_container-min.png"
               width={273}
               height={233}
-              alt="Blue Box Storage Containers"
+              alt="Twenthy Foot Storage Container"
             />
           </div>
           <div className="basis-3/5 antialiased">

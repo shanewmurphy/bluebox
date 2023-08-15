@@ -19,12 +19,12 @@ export default function EightFTContainer() {
               src="/8ft_container_Blue-min.png"
               width={320}
               height={248}
-              alt="Blue Box Storage Container, Cork Ireland"
+              alt="Eight Foot Storage Container"
             />
           </div>
           <div className="basis-3/5">
-            <h3 className="lg:text-5xl md:text-5xl sm:text-4xl font-extrabold text-black">
-              8ft Storage Container
+            <h3 className="lg:text-6xl md:text-5xl sm:text-4xl font-extrabold text-black">
+              8ft Container
             </h3>
             <h6 className="font-semibold text-base text-black">
               Compact and Convenient
