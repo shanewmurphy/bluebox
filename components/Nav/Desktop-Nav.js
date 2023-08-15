@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import logo from "../../public/Logo.svg";
 import logo from "../../public/Logo.svg";
 import Link from "next/link";
 import DropDownMenu from "./Dropdown-menu";
@@ -38,7 +39,7 @@ export default function DesktopNav() {
               <ul className="inline-flex items-center">
                 <Link href="/">
                   <li>
-                    <Image src={logo} priority />
+                    <Image src={logo} priority alt="Logo Blue Box Storage" />
                   </li>
                 </Link>
                 <li className="pl-4 font-semibold text-sm">

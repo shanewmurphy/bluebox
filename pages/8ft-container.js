@@ -19,7 +19,7 @@ export default function EightFTContainer() {
               src="/8ft_container_Blue-min.png"
               width={320}
               height={248}
-              alt="Eight Foot container"
+              alt="Blue Box Storage Container, Cork Ireland"
             />
           </div>
           <div className="basis-3/5">
@@ -66,6 +66,7 @@ export default function EightFTContainer() {
               src="/Opened_container-min.png"
               width={273}
               height={233}
+              alt="Blue Box Storage Containers"
             />
           </div>
           <div className="basis-3/5 antialiased">

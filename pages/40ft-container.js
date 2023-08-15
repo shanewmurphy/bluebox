@@ -21,7 +21,7 @@ export default function ForthyFtContainer() {
               src={forthyFtContainer}
               width={335}
               height={193}
-              alt="Forthy Foot blue box storage container"
+              alt="Blue Box Storage Containers"
               priority
             />
           </div>
