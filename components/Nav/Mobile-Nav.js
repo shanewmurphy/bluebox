@@ -10,7 +10,7 @@ export default function MobileNav() {
 
   return (
     <div>
-      <div className="">
+      <div className="antialiased">
         <div className="flex justify-between p-4">
           <div>
             <Image src={logoMobile} priority alt="Logo Blue Box Storage" />
@@ -70,7 +70,7 @@ export default function MobileNav() {
                       </div>
                     </Transition.Child> */}
                       <div className="flex h-full content-end flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                        <div className="px-4 sm:px-6">
+                        <div className="px-4 flex content-end sm:px-6">
                           <button
                             type="button"
                             className="relative rounded-md text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
@@ -81,12 +81,35 @@ export default function MobileNav() {
                             <XMarkIcon className="h-8 w-8" aria-hidden="true" />
                           </button>
                         </div>
-                        <div className="relative mt-6 flex-1 px-4 sm:px-6">
+                        <div className="relative mt-6 flex-1 px-4 sm:px-6 antialiased">
                           <ul>
-                            <li>
-                              <button>AAA</button>
+                            <li className="text-2xl font-bold text-black">
+                              Storage Options
+                              <ul>
+                                <li className="indent-4 pt-2">
+                                  <button className="font-semibold">
+                                    <Link href="/8ft-container">
+                                      8FT Container
+                                    </Link>
+                                  </button>
+                                </li>
+                                <li className="indent-4 pt-2">
+                                  <button className="font-semibold">
+                                    <Link href="/20ft-container">
+                                      20FT Container
+                                    </Link>
+                                  </button>
+                                </li>
+                                <li className="indent-4 pt-2">
+                                  <button className="font-semibold">
+                                    <Link href="/40ft-container">
+                                      40FT Container
+                                    </Link>
+                                  </button>
+                                </li>
+                              </ul>
                             </li>
-                            <li>
+                            <li className="pt-4">
                               <button>BBB</button>
                             </li>
                             <li>
