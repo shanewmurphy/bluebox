@@ -5,7 +5,6 @@ import Link from "next/link";
 import DropDownMenu from "./Dropdown-menu";
 
 import { Popover, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 
 const solutions = [
@@ -32,7 +31,7 @@ const solutions = [
 export default function DesktopNav() {
   return (
     <div>
-      <div className="w-11/12 mx-auto lg:mt-6 antialiased lg:block md:block sm:hidden">
+      <div className="w-11/12 mx-auto lg:mt-6 antialiased">
         <div className="flex justify-between">
           <div>
             <nav>
@@ -45,7 +44,7 @@ export default function DesktopNav() {
                 <li className="pl-4 font-semibold text-sm">
                   <DropDownMenu />
                 </li>
-                <li className="pl-4 font-bold text-base text-black hover:text-blue">
+                <li className="pl-2 font-bold text-base text-black hover:text-blue">
                   <Link href="/Pick-Up-Service">Pick-Up Service</Link>
                 </li>
                 <li className="pl-4 font-bold text-base text-black">
