@@ -132,7 +132,11 @@ export default function MobileNav() {
                             </li>
                           </ul>
                         </div>
-                        <div className="p-6 mb-16">Call Us 0241 450 450</div>
+                        <div className="p-6 mb-8 antialiased">
+                          <button className="bg-blue w-full py-3 px-6 text-2xl rounded-md font-bold text-white">
+                            Call Us - 0214 450 450
+                          </button>
+                        </div>
                       </div>
                     </Dialog.Panel>
                   </Transition.Child>

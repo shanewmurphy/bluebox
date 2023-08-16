@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 export default function PickUpService() {
   return (
     <div>
@@ -30,12 +31,14 @@ export default function PickUpService() {
               storage experience seamless from start to finish.
             </p>
             <div className="lg:mt-8 md:mt-4 sm:mt-6">
-              <button className="lg:bg-white md:bg-white sm:bg-blue lg:text-2xl md:text-sm lg:text-blue md:text-blue sm:text-white rounded-md font-bold lg:py-4 lg:px-12 md:py-3 md:px-4 sm:py-3 sm:px-8 flex justify-center items-center antialiased">
-                Learn More
-                <spam className="contents">
-                  <ArrowRightIcon className="w-6 h-6 ml-2" />
-                </spam>
-              </button>
+              <Link href="/Pick-Up-Service">
+                <button className="lg:bg-white md:bg-white sm:bg-blue lg:text-2xl md:text-sm lg:text-blue md:text-blue sm:text-white rounded-md font-bold lg:py-4 lg:px-12 md:py-3 md:px-4 sm:py-3 sm:px-8 flex justify-center items-center antialiased">
+                  Learn More
+                  <spam className="contents">
+                    <ArrowRightIcon className="w-6 h-6 ml-2" />
+                  </spam>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
