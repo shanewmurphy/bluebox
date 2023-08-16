@@ -11,9 +11,13 @@ export default function MobileNav() {
   return (
     <div>
       <div className="antialiased">
-        <div className="flex justify-between p-4">
+        <div className="flex justify-between content-center mt-6 px-4">
           <div>
-            <Image src={logoMobile} priority alt="Logo Blue Box Storage" />
+            <button>
+              <Link href="/">
+                <Image src={logoMobile} priority alt="Logo Blue Box Storage" />
+              </Link>
+            </button>
           </div>
           <div>
             <button onClick={() => setOpen(true)}>
@@ -69,11 +73,11 @@ export default function MobileNav() {
                         </button>
                       </div>
                     </Transition.Child> */}
-                      <div className="flex h-full content-end flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                        <div className="px-4 flex content-end sm:px-6">
+                      <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                        <div className="px-4 flex  sm:px-6">
                           <button
                             type="button"
-                            className="relative rounded-md text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
+                            className="absolute right-0 pr-4 rounded-md text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
                             onClick={() => setOpen(false)}
                           >
                             <span className="absolute -inset-2.5" />
@@ -81,27 +85,27 @@ export default function MobileNav() {
                             <XMarkIcon className="h-8 w-8" aria-hidden="true" />
                           </button>
                         </div>
-                        <div className="relative mt-6 flex-1 px-4 sm:px-6 antialiased">
+                        <div className="relative mt-12 flex-1 px-4 sm:px-6 antialiased">
                           <ul>
                             <li className="text-2xl font-bold text-black">
                               Storage Options
                               <ul>
                                 <li className="indent-4 pt-2">
-                                  <button className="font-semibold">
+                                  <button className="font-semibold text-black hover:text-blue">
                                     <Link href="/8ft-container">
                                       8FT Container
                                     </Link>
                                   </button>
                                 </li>
                                 <li className="indent-4 pt-2">
-                                  <button className="font-semibold">
+                                  <button className="font-semibold text-black hover:text-blue">
                                     <Link href="/20ft-container">
                                       20FT Container
                                     </Link>
                                   </button>
                                 </li>
                                 <li className="indent-4 pt-2">
-                                  <button className="font-semibold">
+                                  <button className="font-semibold text-black hover:text-blue">
                                     <Link href="/40ft-container">
                                       40FT Container
                                     </Link>
@@ -110,14 +114,25 @@ export default function MobileNav() {
                               </ul>
                             </li>
                             <li className="pt-4">
-                              <button>BBB</button>
+                              <button className="text-2xl font-bold text-black hover:text-blue">
+                                <Link href="/Pick-Up-Service">
+                                  Pick-Up Service
+                                </Link>
+                              </button>
                             </li>
-                            <li>
-                              <button>CCC</button>
+                            <li className="pt-2">
+                              <button className="text-2xl font-bold text-black hover:text-blue">
+                                <Link href="/">About Us</Link>
+                              </button>
+                            </li>
+                            <li className="pt-2">
+                              <button className="text-2xl font-bold text-black hover:text-blue">
+                                <Link href="/">FAQs</Link>
+                              </button>
                             </li>
                           </ul>
                         </div>
-                        <div>jjjj</div>
+                        <div className="p-6 mb-16">Call Us 0241 450 450</div>
                       </div>
                     </Dialog.Panel>
                   </Transition.Child>

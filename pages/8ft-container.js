@@ -11,7 +11,7 @@ import Layout from "@/components/Layout";
 export default function EightFTContainer() {
   return (
     <Layout title="8ft Blue Box Storage Container">
-      <div className="w-11/12 mx-auto mt-8 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-2xl md:rounded-xl sm:rounded-md antialiased">
+      <div className="w-11/12 mx-auto lg:mt-8 md:mt-8 sm:mt-4 bg-bkgGray lg:py-12 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 lg:rounded-2xl md:rounded-xl sm:rounded-md antialiased">
         <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-8 sm:gap-6">
           <div className="basis-2/5 rounded-md bg-white p-4">
             <Image
