@@ -21,7 +21,7 @@ export default function AboutUs() {
         </div>
         <div className="lg:w-9/12 md:w-9/12 sm:w-full mx-auto lg:my-40 md:my-36 sm:my-24 sm:px-4 antialiased">
           <h2 className="text-center lg:text-7xl md:text-4xl sm:text-2xl font-extrabold text-blue line_height_h2">
-            Our state-of-the-art storage facilities with advanced security ,
+            Our state-of-the-art storage facilities with advanced security,
             including surveillance systems, access controls, to ensure that your
             items are well-protected
           </h2>
