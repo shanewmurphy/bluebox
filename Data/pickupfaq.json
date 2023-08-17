@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "Question": "Is the pick-up service available for all customers?",
+    "Answer": "Our pick-up service is exclusively available to customers who select the option during the quotation process. Make sure to choose the pick-up service when filling out the quotation form to take advantage of this convenient service."
+  },
+  {
+    "id": "02",
+    "Question": "What are the benefits of the pick-up service?",
+    "Answer": "The pick-up service saves you time and effort by handling the transportation logistics of collecting your belongings for storage. Our professional team will come to your location, load your items into our vans/trucks, and transport them securely to our storage facility."
+  },
+  {
+    "id": "03",
+    "Question": "What items can be picked up for storage?",
+    "Answer": "We can pick up items that are properly packed in boxes or suitable containers. Please ensure your belongings are packed securely and ready for transport."
+  },
+  {
+    "id": "04",
+    "Question": "Are there any size or weight restrictions for the items being picked up?",
+    "Answer": "Each item or box should be manageable by our team during the pick-up process. Weight restrictions may apply for safety reasons. Contact our team for specific guidelines or if you have any concerns."
+  },
+  {
+    "id": "05",
+    "Question": "How do I schedule a pick-up for my items?",
+    "Answer": "To schedule a pick-up, simply select the pick-up service option when filling out the quotation form. Our team will coordinate with you to arrange a convenient pick-up date and time."
+  },
+  {
+    "id": "06",
+    "Question": "Is the pick-up service available on specific days or locations only?",
+    "Answer": "We strive to provide the pick-up service based on your needs and location. Our team will work with you to determine the availability and schedule that suits you best."
+  },
+  {
+    "id": "07",
+    "Question": "Can I track the pick-up process and stay informed?",
+    "Answer": "Yes, we will keep you informed throughout the pick-up process. Our team will provide updates and communicate with you regarding the pick-up schedule and any changes, ensuring a smooth and transparent experience."
+  },
+  {
+    "id": "08",
+    "Question": "Is the pick-up service included in the storage pricing?",
+    "Answer": "The pick-up service may have an additional fee associated with it. Our team will provide you with the pricing details when you select the pick-up option in the quotation form."
+  }
+]

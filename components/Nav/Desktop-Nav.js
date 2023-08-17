@@ -47,9 +47,11 @@ export default function DesktopNav() {
                 <li className="pl-2 font-bold text-base text-black hover:text-blue">
                   <Link href="/Pick-Up-Service">Pick-Up Service</Link>
                 </li>
-                <li className="pl-4 font-bold text-base text-black">
-                  About Us
-                </li>
+                <Link href="/About-Us">
+                  <li className="pl-4 font-bold text-base text-black hover:text-blue">
+                    About Us
+                  </li>
+                </Link>
                 <li className="pl-4 font-bold text-base text-black">FAQs</li>
               </ul>
             </nav>
