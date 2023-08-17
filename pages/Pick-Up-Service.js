@@ -10,7 +10,7 @@ export default function PickUpServicePage() {
     <Layout title="Pick Up Service from Blue Box Storage">
       <div className="lg:mt-8 md:mt-8 sm:mt-4 antialiased">
         <div className="w-11/12 bg-bkgGray lg:rounded-2xl lg:py-16 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 md:rounded-xl sm:rounded-md mx-auto mt-8 antialiased">
-          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-24 md:gap-24 sm:gap-12">
+          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-24 sm:gap-12">
             <div className="basis-3/5 antialiased">
               <h2 className="lg:text-6xl md:text-6xl sm:text-4xl font-extrabold text-black mb-6 line_height_h2">
                 Let us handle the transportation logistics, saving you time and
@@ -41,7 +41,7 @@ export default function PickUpServicePage() {
         <div className="w-11/12 mx-auto lg:my-60 md:my-40 sm:my-36 antialiased">
           <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-24 md:gap-6 sm:gap-8">
             <div className="basis-3/6">
-              <h2 className="font-extrabold text-black lg:text-5xl md:text-4xl sm:text-3xl lg:mb-4 md:mb-4 sm:mb-2 line_height_h2">
+              <h2 className="font-extrabold text-black lg:text-4xl md:text-4xl sm:text-3xl lg:mb-4 md:mb-4 sm:mb-2">
                 Select our Pick-up Service option to take advantage of our
                 hassle-free transportation
               </h2>
@@ -49,7 +49,7 @@ export default function PickUpServicePage() {
                 Please note that this service is exclusively available only to
                 customers who rent a storage unit with us.
               </p>
-              <p className="font-medium text-gray lg:text-xl md:text-xl sm:text-sm">
+              <p className="font-medium text-gray lg:text-base md:text-base sm:text-sm">
                 Select this option during the quotation process. Prices are
                 based on the size of container you choose & location where items
                 are picked-up from.

@@ -21,6 +21,6 @@ export default function Layout({ title, description, children }) {
   );
 }
 Layout.defaultProps = {
-  title: "Blue Box Storage Conatiners | Cork, Ireland",
+  title: "Blue Box Storage Containers | Cork, Ireland",
   description: "Blue Box Shipping Storage Containers, Cork, ireland",
 };
