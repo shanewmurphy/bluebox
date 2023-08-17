@@ -32,7 +32,7 @@ export default function PickUpServicePage() {
             </div>
           </div>
         </div>
-        <div className="lg:w-9/12 md:w-9/12 sm:w-full mx-auto lg:my-60 md:my-40 sm:my-36 md:my-32 sm:my-16 antialiased">
+        <div className="lg:w-9/12 md:w-9/12 sm:w-full mx-auto lg:my-60 md:my-40 sm:my-16 antialiased">
           <h2 className="text-center lg:text-7xl md:text-6xl sm:text-4xl text-blue font-extrabold sm:px-4 line_height_h2">
             We offer a fleet of vans and trucks in various sizes to accommodate
             different storage needs
@@ -102,7 +102,9 @@ export default function PickUpServicePage() {
           </h4>
           <div className="grid lg:grid-cols-3 lg:gap-12 md:gap-12 sm:gap-6">
             <div>
-              <h5 className="text-xl font-bold text-blue">Items for Pick-up</h5>
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
+                Items for Pick-up
+              </h5>
               <p className="text-sm font-semibold mb-2 text-gray">
                 Items must be packed in boxes or suitable containers
               </p>
@@ -112,7 +114,7 @@ export default function PickUpServicePage() {
               </p>
             </div>
             <div>
-              <h5 className="text-xl font-bold text-blue">
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
                 Size and Weight Restrictions
               </h5>
               <p className="text-sm font-semibold text-gray mb-2">
@@ -125,7 +127,7 @@ export default function PickUpServicePage() {
               </p>
             </div>
             <div>
-              <h5 className="text-xl font-bold text-blue">
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
                 Packing Requirements
               </h5>
               <p className="text-sm font-semibold text-gray mb-2">
@@ -138,7 +140,9 @@ export default function PickUpServicePage() {
               </p>
             </div>
             <div>
-              <h5 className="text-xl font-bold text-blue">Prohibited Items</h5>
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
+                Prohibited Items
+              </h5>
               <p className="text-sm font-semibold text-gray mb-2">
                 We cannot transport hazardous materials, perishable goods,
                 firearms, illegal substances, or any other items prohibited by
@@ -149,7 +153,7 @@ export default function PickUpServicePage() {
               </p>
             </div>
             <div>
-              <h5 className="text-xl font-bold text-blue">
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
                 Preparing for Pick-up
               </h5>
               <p className="text-sm font-semibold text-gray mb-2">
@@ -162,7 +166,9 @@ export default function PickUpServicePage() {
               </p>
             </div>
             <div>
-              <h5 className="text-xl font-bold text-blue">Accessibility</h5>
+              <h5 className="lg:text-xl md:text-xl sm:text-lg font-bold text-blue">
+                Accessibility
+              </h5>
               <p className="text-sm font-semibold text-gray mb-2">
                 Ensure that the pick-up location is easily accessible for our
                 team and the van.

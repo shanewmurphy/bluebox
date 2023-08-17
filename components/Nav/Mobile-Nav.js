@@ -3,7 +3,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-import logoMobile from "../../public/logoMobile.svg";
+import logo from "../../public/Logo.svg";
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ export default function MobileNav() {
           <div>
             <button>
               <Link href="/">
-                <Image src={logoMobile} priority alt="Logo Blue Box Storage" />
+                <Image src={logo} priority alt="Logo Blue Box Storage" />
               </Link>
             </button>
           </div>
