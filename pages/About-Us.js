@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layout from "@/components/Layout";
 
-import aboutHeroImgA from "../public/AboutHeroImgA.png";
+import aboutUs from "../public/AboutUs.png";
 import Security from "@/components/Security";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
@@ -12,7 +12,7 @@ export default function AboutUs() {
         <div className="w-11/12 mx-auto lg:py-16 lg:px-16 md:py-12 md:px-16 sm:px-4 sm:py-8 bg-gradient-to-r from-gradientBlue to-gradientWhite lg:rounded-xl md:rounded-md sm:rounded-md lg:mt-8 md:mt-8 sm:mt-4">
           <div className="w-10/12 sm:w-full mx-auto antialiased">
             <Image
-              src={aboutHeroImgA}
+              src={aboutUs}
               alt="about us image blue box storage"
               priority
             />

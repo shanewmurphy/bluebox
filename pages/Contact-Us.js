@@ -14,14 +14,14 @@ export default function ContactUs() {
                 priority
               />
               <h3 className="text-center lg:w-10/12 mx-auto lg:text-5xl md:text-5xl sm:text-base font-extrabold text-black">
-                We are here to assist you with any inquiries or storage needs
-                you may have.
+                We are here to assist you with inquiries or storage needs you
+                may have.
               </h3>
             </div>
           </div>
         </div>
         <div className="w-11/12 mx-auto lg:my-40 md:my-36 sm:my-24 antialiased">
-          <div className="grid lg:grid-cols-2 lg:gap-24">
+          <div className="grid lg:grid-cols-2 lg:gap-24 md:gap-24 sm:gap-24">
             <div>
               <h4 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black mb-2">
                 Blue Box Storage
@@ -43,7 +43,64 @@ export default function ContactUs() {
                 Monday - Friday: 9:00am to 6:00pm
               </p>
             </div>
-            <div>BB</div>
+            <div>
+              <div className="bg-bkgGray lg:py-12 lg:px-8">
+                <h4>Drop Us a message & we'll be back</h4>
+                <div className="grid grid-cols-1 gap-6">
+                  <label className="block">
+                    <span className="pl-2">Full name</span>
+                    <input
+                      type="text"
+                      class="
+                    block
+                    w-80
+                    mt-1
+                    rounded-md
+                    bg-gray-100
+                    border-transparent
+                    focus:border-gray-500 focus:bg-white focus:ring-0
+                  "
+                      placeholder=""
+                    ></input>
+                  </label>
+                  <label className="block">
+                    <span className="pl-2">Your Email</span>
+                    <input
+                      type="email"
+                      class="
+                    mt-1
+                    block
+                    w-80
+                    rounded-md
+                    bg-gray-100
+                    border-transparent
+                    focus:border-gray-500 focus:bg-white focus:ring-0
+                  "
+                      placeholder="john@example.com"
+                    ></input>
+                  </label>
+                  <label className="block">
+                    <span className="pl-2">What is you're enquiry</span>
+                    <select
+                      class="
+                    block
+                    w-80
+                    mt-1
+                    rounded-md
+                    bg-gray-100
+                    border-transparent
+                    focus:border-gray-500 focus:bg-white focus:ring-0
+                  "
+                    >
+                      <option>Gerneral</option>
+                      <option>Storage Rental</option>
+                      <option>Accounts</option>
+                      <option>Other</option>
+                    </select>
+                  </label>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
