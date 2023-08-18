@@ -106,7 +106,7 @@ export default function MobileNav() {
                             </li>
                             <li className="pt-2">
                               <button className="text-2xl font-bold text-black hover:text-blue">
-                                <Link href="/">FAQs</Link>
+                                <Link href="/Contact-Us">Contact Us</Link>
                               </button>
                             </li>
                           </ul>

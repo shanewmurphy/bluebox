@@ -24,7 +24,7 @@ export default function Hero() {
             Your Trusted Storage Solution
           </h4>
           <div className="text-center mt-8">
-            <button className="bg-blue text-white lg:text-2xl md:text-2xl sm:text-base lg:py-6 lg:px-14 md:py-4 md:px-10 sm:py-4 sm:px-8 font-bold rounded-md py-4">
+            <button className="bg-blue text-white lg:text-2xl md:text-2xl sm:text-base lg:py-4 lg:px-8 md:py-4 md:px-10 sm:py-4 sm:px-8 font-bold rounded-md py-4">
               Select Your Container
             </button>
           </div>

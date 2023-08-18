@@ -52,9 +52,11 @@ export default function DesktopNav() {
                     About Us
                   </li>
                 </Link>
-                <li className="pl-4 font-bold text-base text-black">
-                  Contact Us
-                </li>
+                <Link href="/Contact-Us">
+                  <li className="pl-4 font-bold text-base text-black hover:text-blue">
+                    Contact Us
+                  </li>
+                </Link>
               </ul>
             </nav>
           </div>

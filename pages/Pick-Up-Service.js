@@ -97,7 +97,7 @@ export default function PickUpServicePage() {
           </div>
         </div>
         <div className="w-11/12 mx-auto bg-bkgGray rounded-xl lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-8 sm:px-4 lg:mb-60 antialiased">
-          <h4 className="lg:text-7xl md:text-6xl sm:text-4xl text-black text-center font-extrabold lg:mb-4 md:mb-4 sm:mb-4">
+          <h4 className="lg:text-7xl md:text-6xl sm:text-4xl text-black text-center font-extrabold lg:mb-8 md:mb-4 sm:mb-4">
             Rules for your pick-up service
           </h4>
           <div className="grid lg:grid-cols-3 lg:gap-12 md:gap-12 sm:gap-6">
