@@ -42,14 +42,14 @@ export default function PickUpServicePage() {
           <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-24 md:gap-6 sm:gap-8">
             <div className="basis-3/6">
               <h2 className="font-extrabold text-black lg:text-4xl md:text-4xl sm:text-3xl lg:mb-4 md:mb-4 sm:mb-2">
-                Select our Pick-up Service option to take advantage of our
-                hassle-free transportation
+                Our Pick-up Service option to take advantage of our hassle-free
+                transportation
               </h2>
               <p className="font-semibold text-gray lg:text-xl md:text-xl sm:text-sm mb-2">
                 Please note that this service is exclusively available only to
                 customers who rent a storage unit with us.
               </p>
-              <p className="font-medium text-gray lg:text-base md:text-base sm:text-sm">
+              <p className="font-semibold text-gray lg:text-base md:text-base sm:text-sm">
                 Select this option during the quotation process. Prices are
                 based on the size of container you choose & location where items
                 are picked-up from.

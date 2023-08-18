@@ -21,7 +21,7 @@ export default function PickUpService() {
             <h2 className="lg:text-6xl md:text-4xl sm:text-5xl lg:text-white md:text-white sm:text-black font-extrabold">
               Pick Up Service
             </h2>
-            <h3 className="lg:text-white md:text-white sm:text-gray font-bold lg:text-3xl md:text-2xl sm:text-3xl">
+            <h3 className="lg:text-white md:text-white sm:text-gray font-bold lg:text-3xl md:text-2xl sm:text-2xl">
               Leave the transportation logistics to us, and enjoy the benefits
               of saved time and effort
             </h3>

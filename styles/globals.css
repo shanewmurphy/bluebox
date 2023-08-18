@@ -20,12 +20,7 @@ img {
 .mobile_swiper_slide {
   width: 80%;
 }
-/* .line_height_h2 {
-  line-height: 48px;
-}
-.line_height_h4 {
-  line-height: 28px;
-} */
+
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 411px) {
@@ -39,13 +34,5 @@ img {
   } */
 }
 @media screen and (max-width: 360px) {
-  /* h1 {
-    line-height: 36px;
-  }
-  h3 {
-    line-height: 2rem;
-  }
-  .line_height_h2 {
-    line-height: 26px;
-  } */
+
 }

@@ -30,7 +30,7 @@ module.exports = {
         "6xl": ["2.488rem", { lineHeight: "46px" }],
         "5xl": ["2.074rem", { lineHeight: "40px" }],
         "4xl": ["1.728rem", { lineHeight: "32px" }],
-        "3xl": ["1.44rem", { lineHeight: "32px" }],
+        "3xl": ["1.44rem", { lineHeight: "28px" }],
         "2xl": ["1.2rem", { lineHeight: "24px" }],
       },
     },
