@@ -20,26 +20,26 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="w-11/12 mx-auto lg:my-40 antialiased">
+        <div className="w-11/12 mx-auto lg:my-40 md:my-36 sm:my-24 antialiased">
           <div className="grid lg:grid-cols-2 lg:gap-24">
             <div>
               <h4 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black mb-2">
                 Blue Box Storage
               </h4>
-              <address className="lg:text-2xl md:text-2xl sm:text-2xl font-semibold text-gray not-italic lg:mb-8">
+              <address className="lg:text-2xl md:text-2xl sm:text-base font-semibold text-gray not-italic mb-8">
                 Units 24-48, Euro Business Park, Little Island, T45 WP96, County
                 Cork, Ireland.
               </address>
-              <h5 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black lg:mb-2">
+              <h5 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black mb-2">
                 Call: 0214 450 450
               </h5>
               <p className="lg:text-3xl md:text-2xl sm:text-2xl font-semibold text-gray hover:text-blue">
                 info@bluebox.ie
               </p>
-              <p className="lg:text-2xl md:text-2xl sm:text-2xl font-bold text-black lg:mt-8">
+              <p className="lg:text-2xl md:text-2xl sm:text-2xl font-bold text-black mt-8">
                 Business Hours
               </p>
-              <p className="text-base font-medium text-gray">
+              <p className="lg:text-base md:text-base sm:text-sm font-medium text-gray">
                 Monday - Friday: 9:00am to 6:00pm
               </p>
             </div>
