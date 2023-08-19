@@ -13,7 +13,7 @@ export default function AboutUs() {
           <div className="w-10/12 sm:w-full mx-auto antialiased">
             <Image
               src={aboutUs}
-              alt="about us image blue box storage"
+              alt="About Us Blue Box Storage, Cork"
               priority
             />
             <h3 className="text-center lg:w-10/12 mx-auto lg:text-5xl md:text-5xl sm:text-base font-extrabold text-black">
