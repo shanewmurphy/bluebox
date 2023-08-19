@@ -44,16 +44,22 @@ export default function ContactUs() {
               </p>
             </div>
             <div>
-              <div className="bg-bkgGray lg:py-12 lg:px-8">
-                <h4>Drop Us a message & we&apos;ll be back</h4>
+              <div className="bg-bkgGray rounded-lg lg:py-10 lg:px-8 md:py-8 md:px-8 sm:py-8 sm:px-6">
+                <h4 className="w-4/5 mx-auto text-center text-black font-bold lg:text-3xl md:text-4xl sm:text-2xl mb-6">
+                  Drop Us a message & we&apos;ll & get reply within 24hrs
+                </h4>
                 <div className="grid grid-cols-1 gap-6">
                   <label className="block">
-                    <span className="pl-2">Full name</span>
+                    <span className="pl-2 text-black text-base font-bold">
+                      Full name
+                    </span>
                     <input
                       type="text"
                       class="
                     block
-                    w-80
+                    lg:w-80
+                    md:w-80
+                    sm:w-64
                     mt-1
                     rounded-md
                     bg-gray-100
@@ -64,13 +70,17 @@ export default function ContactUs() {
                     ></input>
                   </label>
                   <label className="block">
-                    <span className="pl-2">Your Email</span>
+                    <span className="pl-2 text-black text-base font-bold">
+                      Your Email
+                    </span>
                     <input
                       type="email"
                       class="
                     mt-1
                     block
-                    w-80
+                    lg:w-80
+                    md:w-80
+                    sm:w-64
                     rounded-md
                     bg-gray-100
                     border-transparent
@@ -80,11 +90,15 @@ export default function ContactUs() {
                     ></input>
                   </label>
                   <label className="block">
-                    <span className="pl-2">What is you&apos;re enquiry</span>
+                    <span className="pl-2 text-black text-base font-bold">
+                      What is you&apos;re enquiry
+                    </span>
                     <select
                       class="
                     block
-                    w-80
+                    lg:w-80
+                    md:w-80
+                    sm:w-64
                     mt-1
                     rounded-md
                     bg-gray-100
@@ -98,6 +112,28 @@ export default function ContactUs() {
                       <option>Other</option>
                     </select>
                   </label>
+                  <label className="block">
+                    <span className="text-black text-base font-bold">
+                      Your message
+                    </span>
+                    <textarea
+                      class="
+                    mt-1
+                    block
+                    w-full
+                    rounded-md
+                    bg-gray-100
+                    border-transparent
+                    focus:border-gray-500 focus:bg-white focus:ring-0
+                  "
+                      rows="6"
+                    ></textarea>
+                  </label>
+                  <div>
+                    <button className="lg:py-3 lg:px-10 md:py-4 md:px-10 sm:py-3 sm:px-8 bg-blue text-white font-bold text-2xl">
+                      Submit
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
