@@ -45,7 +45,7 @@ export default function ContactUs() {
             </div>
             <div>
               <div className="bg-bkgGray lg:py-12 lg:px-8">
-                <h4>Drop Us a message & we'll be back</h4>
+                <h4>Drop Us a message & we&apos;ll be back</h4>
                 <div className="grid grid-cols-1 gap-6">
                   <label className="block">
                     <span className="pl-2">Full name</span>
@@ -80,7 +80,7 @@ export default function ContactUs() {
                     ></input>
                   </label>
                   <label className="block">
-                    <span className="pl-2">What is you're enquiry</span>
+                    <span className="pl-2">What is you&apos;re enquiry</span>
                     <select
                       class="
                     block
