@@ -218,7 +218,7 @@ export default function Quote() {
                             </span>
                             <ul className="lg:inline-flex">
                               <li>
-                                <span className="block text-gray font-semibold text-sm">
+                                <span className="block text-gray font-semibold text-sm sm:mt-2">
                                   Start Date
                                 </span>
                                 <label>
@@ -233,7 +233,7 @@ export default function Quote() {
                                 </label>
                               </li>
                               <li className="lg:pl-4">
-                                <span className="block text-gray font-semibold text-sm">
+                                <span className="block text-gray font-semibold text-sm sm:mt-2">
                                   End Date
                                 </span>
                                 <label>
@@ -250,7 +250,7 @@ export default function Quote() {
                             </ul>
                           </div>
                           <div className="">
-                            <span className="block mt-4 mb-2 text-black font-bold lg:text-base antialiased">
+                            <span className="block lg:mt-4 md:mt-4 sm:mt-4 sm:mb-2 text-black font-bold lg:text-base antialiased">
                               Do you require our transportation Services?
                             </span>
                             <div>
@@ -264,8 +264,8 @@ export default function Quote() {
                                           onClick={handleButtonClickHidden}
                                           className={
                                             checked
-                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 text-base font-bold rounded-md text-white text-center"
-                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 text-base font-bold rounded-md text-center"
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-center"
                                           }
                                         >
                                           No
@@ -280,8 +280,8 @@ export default function Quote() {
                                           onClick={handleButtonClick}
                                           className={
                                             checked
-                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 text-base font-bold rounded-md text-white text-center"
-                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 text-base font-bold rounded-md text-center"
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-center"
                                           }
                                         >
                                           Yes
@@ -303,7 +303,10 @@ export default function Quote() {
                                           type="text"
                                           name="street-address"
                                           autocomplete="street-address"
-                                          className="w-96 
+                                          className="
+                                          lg:w-96 
+                                          md:w-96
+                                          sm:w-72
                                         rounded-md
                                         bg-zinc-100
                                         border-transparent"
@@ -311,7 +314,7 @@ export default function Quote() {
                                       </label>
                                     </div>
                                     <div className="mt-4">
-                                      <ul className="inline-flex">
+                                      <ul className="lg:inline-flex sm:block">
                                         <li>
                                           <span className="text-black font-bold lg:text-base">
                                             City*
@@ -319,14 +322,17 @@ export default function Quote() {
                                           <label>
                                             <input
                                               type="text"
-                                              className="block w-40
+                                              className="block 
+                                              lg:w-40
+                                              md:w-52
+                                              sm:w-40
                                               rounded-md
                                               bg-zinc-100
                                               border-transparent"
                                             ></input>
                                           </label>
                                         </li>
-                                        <li className="pl-4">
+                                        <li className="lg:pl-4 lg:mt-0 sm:mt-4">
                                           <span className="text-black font-bold lg:text-base">
                                             Postal Code*
                                           </span>
@@ -350,8 +356,8 @@ export default function Quote() {
                         </div>
                       </div>
                     </div>
-                    <div className="text-center my-8">
-                      <button className="lg:py-4 lg:px-8 rounded-md bg-blue text-white text-2xl font-bold antialiased">
+                    <div className="text-center lg:my-8 md:my-8 sm:py-12">
+                      <button className="lg:py-4 lg:px-8 md:py-4 md:px-8 sm:py-4 sm:px-6 rounded-md bg-blue text-white text-2xl font-bold antialiased">
                         Submit for Quote
                       </button>
                       <p className="mt-2 text-sm text-gray font-semibold antialiased">
