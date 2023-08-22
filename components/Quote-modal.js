@@ -62,25 +62,29 @@ export default function Quote() {
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95"
                 >
-                  <Dialog.Panel className="lg:w-10/12 mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
-                    <div className="float-right">
+                  <Dialog.Panel className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
+                    <div className="absolute right-0 top-6 pr-6">
                       <button onClick={closeModal}>
                         <ModalClose />
                       </button>
                     </div>
                     <Dialog.Title
                       as="h3"
-                      className="lg:text-5xl text-center font-extrabold leading-6 text-black antialiased"
+                      className="lg:text-3xl text-center font-extrabold leading-6 text-black antialiased"
                     ></Dialog.Title>
-                    <div className="mt-2">
-                      <p className="lg:text-3xl text-center font-extrabold  text-black antialiased">
+                    <div className="lg:w-11/12 mx-auto lg:my-4 antialiased">
+                      <div className="text-center lg:my-8 md:mt-24 md:mb-4 lg:text-3xl md:text-4xl sm:text-2xl font-extrabold lg:block md:block sm:hidden">
                         To provide you with accurate pricing information for
                         storage
-                      </p>
-                    </div>
-                    <div className="lg:w-11/12 mx-auto lg:my-4 antialiased">
+                      </div>
                       <div className="grid lg:grid-cols-2 gap-8">
                         <div>
+                          <div className="lg:hidden md:hidden sm:block mt-16 mb-6 w-11/12 mx-auto">
+                            <h4 className="text-center text-2xl font-extrabold text-black">
+                              To provide you with accurate pricing information
+                              for storage
+                            </h4>
+                          </div>
                           <label className="block">
                             <span className="text-black font-bold lg:text-base md:text-base sm:text-sm">
                               Full Name*
@@ -251,7 +255,7 @@ export default function Quote() {
                           </div>
                           <div className="">
                             <span className="block lg:mt-4 md:mt-4 sm:mt-4 sm:mb-2 text-black font-bold lg:text-base antialiased">
-                              Do you require our transportation Services?
+                              Do you require our Pick-Up Services?
                             </span>
                             <div>
                               <ul>
@@ -356,7 +360,7 @@ export default function Quote() {
                         </div>
                       </div>
                     </div>
-                    <div className="text-center lg:my-8 md:my-8 sm:py-12">
+                    <div className="text-center lg:my-2 md:my-8 sm:py-12">
                       <button className="lg:py-4 lg:px-8 md:py-4 md:px-8 sm:py-4 sm:px-6 rounded-md bg-blue text-white text-2xl font-bold antialiased">
                         Submit for Quote
                       </button>
