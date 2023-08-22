@@ -6,7 +6,7 @@ export default function ContainerTerms() {
           Container Rental Terms & Conditions
         </h3>
       </div>
-      <div class="grid lg:grid-cols-2 lg:gap-x-16 md:gap-x-8 lg:gap-y-8 md:gap-y-8 sm:gap-y-8">
+      <div className="grid lg:grid-cols-2 lg:gap-x-16 md:gap-x-8 lg:gap-y-8 md:gap-y-8 sm:gap-y-8">
         <div>
           <h6 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold text-blue">
             Rental Period

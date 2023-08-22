@@ -14,6 +14,16 @@ export default function Quote() {
     setIsOpen(true);
   }
   let [plan, setPlan] = useState("");
+  let [yes, setYes] = useState("No");
+
+  const [isContentVisible, setContentVisible] = useState(false);
+
+  const handleButtonClick = () => {
+    setContentVisible(true);
+  };
+  const handleButtonClickHidden = () => {
+    setContentVisible(false);
+  };
   return (
     <div>
       <>
@@ -52,7 +62,7 @@ export default function Quote() {
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95"
                 >
-                  <Dialog.Panel className="lg:w-10/12 mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                  <Dialog.Panel className="lg:w-10/12 mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
                     <div className="float-right">
                       <button onClick={closeModal}>
                         <ModalClose />
@@ -60,22 +70,20 @@ export default function Quote() {
                     </div>
                     <Dialog.Title
                       as="h3"
-                      className="lg:text-6xl text-center font-extrabold leading-6 text-black antialiased"
-                    >
-                      Get a Quote for Storage Container
-                    </Dialog.Title>
+                      className="lg:text-5xl text-center font-extrabold leading-6 text-black antialiased"
+                    ></Dialog.Title>
                     <div className="mt-2">
-                      <p className="lg:text-2xl text-center text-black antialiased">
+                      <p className="lg:text-3xl text-center font-extrabold  text-black antialiased">
                         To provide you with accurate pricing information for
                         storage
                       </p>
                     </div>
-                    <div className="lg:w-11/12 mx-auto lg:my-16 antialiased">
-                      <div className="grid grid-cols-2 gap-8">
+                    <div className="lg:w-11/12 mx-auto lg:my-4 antialiased">
+                      <div className="grid lg:grid-cols-2 gap-8">
                         <div>
                           <label className="block">
-                            <span className="text-black font-bold lg:text-base">
-                              Full Name
+                            <span className="text-black font-bold lg:text-base md:text-base sm:text-sm">
+                              Full Name*
                             </span>
                             <input
                               type="text"
@@ -83,6 +91,8 @@ export default function Quote() {
                                     mt-1
                                     block
                                     lg:w-80
+                                    md:w-96
+                                    sm:w-64
                                     rounded-md
                                     bg-zinc-100
                                     border-transparent
@@ -92,8 +102,8 @@ export default function Quote() {
                             ></input>
                           </label>
                           <label className="block mt-4">
-                            <span className="text-black font-bold lg:text-base">
-                              Your Email
+                            <span className="text-black font-bold lg:text-base md:text-base sm:text-sm">
+                              Your Email*
                             </span>
                             <input
                               type="email"
@@ -101,6 +111,8 @@ export default function Quote() {
                                     mt-1
                                     block
                                     lg:w-80
+                                    md:w-96
+                                    sm:w-64
                                     rounded-md
                                     bg-zinc-100
                                     border-transparent
@@ -110,8 +122,8 @@ export default function Quote() {
                             ></input>
                           </label>
                           <label className="block mt-4">
-                            <span className="text-black font-bold lg:text-base">
-                              Comfirm Email
+                            <span className="text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
+                              Comfirm Email*
                             </span>
                             <input
                               type="email"
@@ -119,6 +131,8 @@ export default function Quote() {
                                     mt-1
                                     block
                                     lg:w-80
+                                    md:w-96
+                                    sm:w-64
                                     rounded-md
                                     bg-zinc-100
                                     border-transparent
@@ -128,20 +142,21 @@ export default function Quote() {
                             ></input>
                           </label>
                           <label className="block mt-4">
-                            <span className="text-black font-bold lg:text-base">
-                              Contact Number
+                            <span className="text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
+                              Contact Number*
                             </span>
                             <input
                               type="number"
-                              className="block mt-1 lg:w-80 rounded-md bg-zinc-100 border-transparent
+                              className="block mt-1 md:w-96
+                              sm:w-64 lg:w-80 rounded-md bg-zinc-100 border-transparent
                               focus:border-gray-500 focus:bg-white focus:ring-0"
                             ></input>
                           </label>
-                          <div className="mt-6">
-                            <span className="text-black font-bold lg:text-base">
-                              Please Select Container Size
-                            </span>
 
+                          <div className="mt-6">
+                            <span className="text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
+                              Please Select Container Size*
+                            </span>
                             <div className="mt-2">
                               <ul>
                                 <RadioGroup value={plan} onChange={setPlan}>
@@ -152,8 +167,8 @@ export default function Quote() {
                                         <button
                                           className={
                                             checked
-                                              ? "bg-indigo-700 border-2 border-indigo-700 w-28 lg:py-2 lg:px-8 text-base font-bold rounded-md text-white"
-                                              : "border-2 w-28 text-black border-slate-800 lg:py-2 lg:px-8 text-base font-bold rounded-md"
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-center"
                                           }
                                         >
                                           8FT
@@ -161,14 +176,14 @@ export default function Quote() {
                                       )}
                                     </RadioGroup.Option>
                                   </li>
-                                  <li className="inline-flex lg:pl-4">
+                                  <li className="inline-flex lg:pl-4 md:pl-2 sm:pl-2">
                                     <RadioGroup.Option value="20ft">
                                       {({ checked }) => (
                                         <button
                                           className={
                                             checked
-                                              ? "bg-indigo-700 border-2 border-indigo-700 w-28 lg:py-2 lg:px-8 text-base font-bold rounded-md text-white"
-                                              : "border-2 w-28 text-black border-slate-800 lg:py-2 lg:px-8 text-base font-bold rounded-md"
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-center"
                                           }
                                         >
                                           20ft
@@ -176,14 +191,14 @@ export default function Quote() {
                                       )}
                                     </RadioGroup.Option>
                                   </li>
-                                  <li className="inline-flex lg:pl-4">
+                                  <li className="inline-flex lg:pl-4 md:pl-2 sm:pl-2">
                                     <RadioGroup.Option value="enterprise">
                                       {({ checked }) => (
                                         <button
                                           className={
                                             checked
-                                              ? "bg-indigo-700 border-2 border-indigo-700 w-28 lg:py-2 lg:px-8 text-base font-bold rounded-md text-white"
-                                              : "border-2 w-28 text-black border-slate-800 lg:py-2 lg:px-8 text-base font-bold rounded-md"
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 md:py-2 md:px-4 sm:py-2 sm:px-4 text-base font-bold rounded-md text-center"
                                           }
                                         >
                                           40ft
@@ -197,9 +212,151 @@ export default function Quote() {
                           </div>
                         </div>
                         <div>
-                          <span>Select Dates for period of Storage</span>
+                          <div className="">
+                            <span className="block text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
+                              Select Dates for period of Storage*
+                            </span>
+                            <ul className="lg:inline-flex">
+                              <li>
+                                <span className="block text-gray font-semibold text-sm">
+                                  Start Date
+                                </span>
+                                <label>
+                                  <input
+                                    type="date"
+                                    className="block rounded-md
+                                    border-2
+                                    border-gray-300
+                                    shadow-sm
+                                  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                                  ></input>
+                                </label>
+                              </li>
+                              <li className="lg:pl-4">
+                                <span className="block text-gray font-semibold text-sm">
+                                  End Date
+                                </span>
+                                <label>
+                                  <input
+                                    type="date"
+                                    className="block rounded-md
+                                    border-2
+                                    border-gray-300
+                                    shadow-sm
+                                  focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                                  ></input>
+                                </label>
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="">
+                            <span className="block mt-4 mb-2 text-black font-bold lg:text-base antialiased">
+                              Do you require our transportation Services?
+                            </span>
+                            <div>
+                              <ul>
+                                <RadioGroup value={yes} onChange={setYes}>
+                                  <RadioGroup.Label></RadioGroup.Label>
+                                  <li className="inline-flex">
+                                    <RadioGroup.Option value="No">
+                                      {({ checked }) => (
+                                        <button
+                                          onClick={handleButtonClickHidden}
+                                          className={
+                                            checked
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 text-base font-bold rounded-md text-center"
+                                          }
+                                        >
+                                          No
+                                        </button>
+                                      )}
+                                    </RadioGroup.Option>
+                                  </li>
+                                  <li className="inline-flex pl-4">
+                                    <RadioGroup.Option value="business">
+                                      {({ checked }) => (
+                                        <button
+                                          onClick={handleButtonClick}
+                                          className={
+                                            checked
+                                              ? "bg-indigo-700 border-2 border-indigo-700 w-20 lg:py-2 lg:px-6 text-base font-bold rounded-md text-white text-center"
+                                              : "border-2 w-20 text-black border-slate-800 lg:py-2 lg:px-6 text-base font-bold rounded-md text-center"
+                                          }
+                                        >
+                                          Yes
+                                        </button>
+                                      )}
+                                    </RadioGroup.Option>
+                                  </li>
+                                </RadioGroup>
+                              </ul>
+                              <div>
+                                {isContentVisible && (
+                                  <div>
+                                    <div className="mt-4">
+                                      <span className="block text-black font-bold lg:text-base">
+                                        Address*
+                                      </span>
+                                      <label>
+                                        <input
+                                          type="text"
+                                          name="street-address"
+                                          autocomplete="street-address"
+                                          className="w-96 
+                                        rounded-md
+                                        bg-zinc-100
+                                        border-transparent"
+                                        ></input>
+                                      </label>
+                                    </div>
+                                    <div className="mt-4">
+                                      <ul className="inline-flex">
+                                        <li>
+                                          <span className="text-black font-bold lg:text-base">
+                                            City*
+                                          </span>
+                                          <label>
+                                            <input
+                                              type="text"
+                                              className="block w-40
+                                              rounded-md
+                                              bg-zinc-100
+                                              border-transparent"
+                                            ></input>
+                                          </label>
+                                        </li>
+                                        <li className="pl-4">
+                                          <span className="text-black font-bold lg:text-base">
+                                            Postal Code*
+                                          </span>
+                                          <label>
+                                            <input
+                                              type="text"
+                                              autocomplete="postal-code"
+                                              className="block w-40  rounded-md
+                                              bg-zinc-100
+                                              border-transparent"
+                                            ></input>
+                                          </label>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
+                    </div>
+                    <div className="text-center my-8">
+                      <button className="lg:py-4 lg:px-8 rounded-md bg-blue text-white text-2xl font-bold antialiased">
+                        Submit for Quote
+                      </button>
+                      <p className="mt-2 text-sm text-gray font-semibold antialiased">
+                        Receive a Quote within 24hrs
+                      </p>
                     </div>
                   </Dialog.Panel>
                 </Transition.Child>
