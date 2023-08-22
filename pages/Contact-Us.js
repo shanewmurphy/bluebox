@@ -130,7 +130,7 @@ export default function ContactUs() {
                     ></textarea>
                   </label>
                   <div>
-                    <button className="lg:py-3 lg:px-10 md:py-4 md:px-10 sm:py-3 sm:px-8 bg-blue text-white font-bold text-2xl">
+                    <button className="lg:py-3 lg:px-10 md:py-4 md:px-10 sm:py-3 sm:px-8 rounded-md bg-blue text-white font-bold text-2xl">
                       Submit
                     </button>
                   </div>

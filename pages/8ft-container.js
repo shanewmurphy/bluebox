@@ -7,6 +7,10 @@ import FAQCommon from "@/components/FAQ/Common";
 import Testimonials from "@/components/Testimonials/Testimonials";
 
 import Layout from "@/components/Layout";
+import Quote from "@/components/Quote-modal";
+
+import { Dialog, Transition } from "@headlessui/react";
+import { Fragment, useState } from "react";
 
 export default function EightFTContainer() {
   return (
@@ -51,9 +55,7 @@ export default function EightFTContainer() {
               , our 8ft container provides a secure storage solution.
             </p>
             <div className="lg:mt-8 md:mt-8 sm:mt-12 sm:mb-8 lg:text-left md:text-center sm:text-center">
-              <button className="lg:py-4 lg:px-16 md:py-4 md:px-16 sm:py-4 sm:px-12 sm:text-center bg-blue font-bold text-white text-2xl rounded-md antialiased">
-                Get a Quote
-              </button>
+              <Quote />
             </div>
           </div>
         </div>
