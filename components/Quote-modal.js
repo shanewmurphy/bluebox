@@ -73,7 +73,7 @@ export default function Quote() {
                       className="lg:text-3xl text-center font-extrabold leading-6 text-black antialiased"
                     ></Dialog.Title>
                     <div className="lg:w-11/12 mx-auto lg:my-4 antialiased">
-                      <div className="text-center lg:my-8 md:mt-24 md:mb-4 lg:text-3xl md:text-4xl sm:text-2xl font-extrabold lg:block md:block sm:hidden">
+                      <div className="text-center lg:my-8 md:mt-16 md:mb-4 lg:text-3xl md:text-4xl sm:text-2xl font-extrabold lg:block md:block sm:hidden">
                         To provide you with accurate pricing please complete
                         form
                       </div>
@@ -220,7 +220,7 @@ export default function Quote() {
                             <span className="block text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
                               Select Dates for period of Storage*
                             </span>
-                            <ul className="lg:inline-flex">
+                            <ul className="lg:inline-flex md:inline-flex">
                               <li>
                                 <span className="block text-gray font-semibold text-sm sm:mt-2">
                                   Start Date
@@ -236,7 +236,7 @@ export default function Quote() {
                                   ></input>
                                 </label>
                               </li>
-                              <li className="lg:pl-4">
+                              <li className="lg:pl-4 md:pl-6">
                                 <span className="block text-gray font-semibold text-sm sm:mt-2">
                                   End Date
                                 </span>

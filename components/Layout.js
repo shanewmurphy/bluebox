@@ -1,6 +1,7 @@
 import Head from "next/head";
 import DesktopNav from "./Nav/Desktop-Nav";
 import MobileNav from "./Nav/Mobile-Nav";
+import Footer from "./Footer";
 export default function Layout({ title, description, children }) {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Layout({ title, description, children }) {
           <MobileNav />
         </div>
         {children}
+        <Footer />
       </div>
     </div>
   );
