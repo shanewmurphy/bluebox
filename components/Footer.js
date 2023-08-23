@@ -3,8 +3,8 @@ import logoFooter from "../public/LogoFooter.svg";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <div>
-      <div className="w-screen bg-blue lg:py-16 lg:px-16 md:py-12 md:px-8 sm:py-8 sm:px-6 antialiased">
+    <div className="mt-48">
+      <div className="w-screen bg-blue lg:py-16 lg:px-16 md:py-12 md:px-8 sm:py-10 sm:px-8 antialiased">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 lg:gap-16 md:gap-8">
           <div>
             <div>
@@ -36,7 +36,7 @@ export default function Footer() {
             <p className="mt-2">
               <Link
                 href="/8ft-container"
-                className="text-white font-semibold lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
+                className="text-white lg:font-semibold md:font-semibold sm:font-medium lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
               >
                 8ft Storage Container
               </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
             <p className="mt-2">
               <Link
                 href="/About-Us"
-                className="text-white font-semibold lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
+                className="text-white lg:font-semibold md:font-semibold sm:font-medium lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
               >
                 About Us
               </Link>
@@ -73,7 +73,7 @@ export default function Footer() {
             <p className="mt-2">
               <Link
                 href="/Pick-Up-Service"
-                className="text-white font-semibold lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
+                className="text-white lg:font-semibold md:font-semibold sm:font-medium lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
               >
                 Pick-Up Service
               </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
             <p className="mt-2">
               <Link
                 href="/Contact-Us"
-                className="text-white font-semibold lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
+                className="text-white lg:font-semibold md:font-semibold sm:font-medium lg:text-2xl md:text-2xl sm:text-base hover:text-BkColor hover:underline"
               >
                 Contact Us
               </Link>

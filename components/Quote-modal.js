@@ -81,8 +81,8 @@ export default function Quote() {
                         <div>
                           <div className="lg:hidden md:hidden sm:block mt-16 mb-6 w-11/12 mx-auto">
                             <h4 className="text-center text-2xl font-extrabold text-black">
-                              To provide you with accurate pricing information
-                              for storage
+                              To provide you with accurate pricing please
+                              complete form
                             </h4>
                           </div>
                           <label className="block">

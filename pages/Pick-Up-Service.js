@@ -4,6 +4,7 @@ import Link from "next/link";
 import Contact from "@/components/Contact";
 import PickUpFAQ from "@/components/FAQ/PickUpFAQ";
 import Layout from "@/components/Layout";
+import quote_modalB from "../public/Quote_modalB.png";
 
 export default function PickUpServicePage() {
   return (
@@ -39,7 +40,7 @@ export default function PickUpServicePage() {
           </h2>
         </div>
         <div className="w-11/12 mx-auto lg:my-60 md:my-40 sm:my-36 antialiased">
-          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-24 md:gap-6 sm:gap-8">
+          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-6 sm:gap-8">
             <div className="basis-3/6">
               <h2 className="font-extrabold text-black lg:text-4xl md:text-4xl sm:text-3xl lg:mb-4 md:mb-4 sm:mb-2">
                 Our Pick-up Service option to take advantage of our hassle-free
@@ -50,13 +51,15 @@ export default function PickUpServicePage() {
                 customers who rent a storage unit with us.
               </p>
               <p className="font-semibold text-gray lg:text-base md:text-base sm:text-sm">
-                Select this option during the quotation process. Prices are
-                based on the size of container you choose & location where items
-                are picked-up from.
+                Click on YES in quotation form & address you're address. Prices
+                are calculated based on distance and size of storage container
+                selected.
               </p>
             </div>
             <div className="basis-3/6">
-              <div className="bg-slate-100 h-80"></div>
+              <div>
+                <Image className="rounded-md" src={quote_modalB} />
+              </div>
             </div>
           </div>
         </div>
