@@ -62,7 +62,7 @@ export default function Quote() {
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95"
                 >
-                  <Dialog.Panel className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
+                  <Dialog.Panel className="lg:w-10/12 md:w-10/12 sm:w-full mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
                     <div className="absolute right-0 top-6 pr-6">
                       <button onClick={closeModal}>
                         <ModalClose />
@@ -74,8 +74,8 @@ export default function Quote() {
                     ></Dialog.Title>
                     <div className="lg:w-11/12 mx-auto lg:my-4 antialiased">
                       <div className="text-center lg:my-8 md:mt-24 md:mb-4 lg:text-3xl md:text-4xl sm:text-2xl font-extrabold lg:block md:block sm:hidden">
-                        To provide you with accurate pricing information for
-                        storage
+                        To provide you with accurate pricing please complete
+                        form
                       </div>
                       <div className="grid lg:grid-cols-2 gap-8">
                         <div>
@@ -254,7 +254,7 @@ export default function Quote() {
                             </ul>
                           </div>
                           <div className="">
-                            <span className="block lg:mt-4 md:mt-4 sm:mt-4 sm:mb-2 text-black font-bold lg:text-base antialiased">
+                            <span className="block lg:mt-4 md:mt-4 sm:mt-4 sm:mb-2 text-black font-bold lg:text-base md:text-base sm:text-sm antialiased">
                               Do you require our Pick-Up Services?
                             </span>
                             <div>
