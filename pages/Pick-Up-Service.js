@@ -51,7 +51,7 @@ export default function PickUpServicePage() {
                 customers who rent a storage unit with us.
               </p>
               <p className="font-semibold text-gray lg:text-base md:text-base sm:text-sm">
-                Click on YES in quotation form & address you're address. Prices
+                Click on YES in quotation form & your address. Prices
                 are calculated based on distance and size of storage container
                 selected.
               </p>

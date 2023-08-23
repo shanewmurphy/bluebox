@@ -12,8 +12,8 @@ export default function Footer() {
             </div>
             <div className="block">
               <p className="text-white text-sm font-semibold mt-2">
-                Units 24-48, Euro Business Park, Little Island, <br /> T45 WP96,
-                County Cork, Ireland
+                Units 24-48, Euro Business Park, Little Island, T45 WP96,
+                <p>Cork, Ireland.</p>
               </p>
               <p className="text-white font-bold text-xl mt-4">
                 Call: 0214 450 450
@@ -21,12 +21,12 @@ export default function Footer() {
               <p className="text-white font-bold text-lg mt-1">
                 Email: info@bluebox.ie
               </p>
-              <p className="text-white text-base font-semibold mt-4">
+              {/* <p className="text-white text-base font-semibold mt-4">
                 Business Hours
-              </p>
-              <p className="text-white text-sm font-medium">
+              </p> */}
+              {/* <p className="text-white text-sm font-medium">
                 Monday - Friday: 9:00am to 6:00pm
-              </p>
+              </p> */}
             </div>
           </div>
           <div>
