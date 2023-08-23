@@ -27,11 +27,11 @@ export default function Quote() {
   return (
     <div>
       <>
-        <div className="flex items-center antialiased">
+        <div className="flex items-center lg:justify-start md:justify-center sm:justify-center antialiased">
           <button
             type="button"
             onClick={openModal}
-            className="lg:py-4 lg:px-12 md:py-4 md:px-16 sm:py-4 sm:px-12 sm:text-center bg-blue font-bold text-white text-2xl rounded-md antialiased"
+            className="lg:py-4 lg:px-12 md:py-4 md:px-16 sm:py-4 sm:px-12 bg-blue font-bold text-white text-2xl rounded-md  antialiased"
           >
             Get a Quote
           </button>
@@ -64,7 +64,7 @@ export default function Quote() {
                 >
                   <Dialog.Panel className="lg:w-10/12 md:w-10/12 sm:w-full mx-auto transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all lg:py-8 lg:px-8 md:py-8 md:px-8 sm:py-4 sm:px-4">
                     <div className="absolute right-0 top-6 pr-6">
-                      <button onClick={closeModal}>
+                      <button className="hover:text-blue" onClick={closeModal}>
                         <ModalClose />
                       </button>
                     </div>
