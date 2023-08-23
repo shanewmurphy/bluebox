@@ -5,17 +5,17 @@ import Contact from "@/components/Contact";
 import PickUpFAQ from "@/components/FAQ/PickUpFAQ";
 import Layout from "@/components/Layout";
 import quote_modalB from "../public/Quote_modalB.png";
+import pick_up_hero from "../public/Pick_Up_Hero_img.jpg";
 
 export default function PickUpServicePage() {
   return (
     <Layout title="Pick Up Service from Blue Box Storage">
       <div className="lg:mt-8 md:mt-8 sm:mt-4 antialiased">
         <div className="w-11/12 bg-bkgGray lg:rounded-2xl lg:py-16 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 md:rounded-xl sm:rounded-md mx-auto mt-8 antialiased">
-          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-16 md:gap-24 sm:gap-12">
+          <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-32 md:gap-24 sm:gap-12">
             <div className="basis-3/5 antialiased">
               <h2 className="lg:text-6xl md:text-6xl sm:text-4xl font-extrabold text-black mb-6 line_height_h2">
-                Let us handle the transportation logistics, saving you time and
-                effort
+                Let us handle the logistics, saving you time and effort
               </h2>
               <p className="font-semibold lg:text-base md:text-base sm:text-sm text-gray">
                 Don&apos;t worry about renting a truck or lifting heavy boxes.
@@ -29,7 +29,13 @@ export default function PickUpServicePage() {
               </h4>
             </div>
             <div className="basis-2/5">
-              <div className="bg-white h-96"></div>
+              <div className="">
+                <Image
+                  src={pick_up_hero}
+                  className="w-full object-cover rounded-md h-80"
+                  alt="Blue Box Pick-Up Service"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -51,14 +57,18 @@ export default function PickUpServicePage() {
                 customers who rent a storage unit with us.
               </p>
               <p className="font-semibold text-gray lg:text-base md:text-base sm:text-sm">
-                Click on YES in quotation form & your address. Prices
-                are calculated based on distance and size of storage container
+                Click on YES in quotation form & your address. Prices are
+                calculated based on distance and size of storage container
                 selected.
               </p>
             </div>
             <div className="basis-3/6">
               <div>
-                <Image className="rounded-md" src={quote_modalB} />
+                <Image
+                  className="rounded-md"
+                  src={quote_modalB}
+                  alt="Blue Box Quotation Pick-up Service"
+                />
               </div>
             </div>
           </div>

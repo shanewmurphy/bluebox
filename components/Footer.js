@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid lg:grid-cols-3 md:grid-cols-3 lg:gap-16 md:gap-8">
           <div>
             <div>
-              <Image className="m-0" src={logoFooter} />
+              <Image className="m-0" src={logoFooter} alt="Blue Box Logo" />
             </div>
             <div className="block">
               <p className="text-white text-sm font-semibold mt-2">
@@ -21,12 +21,6 @@ export default function Footer() {
               <p className="text-white font-bold text-lg mt-1">
                 Email: info@bluebox.ie
               </p>
-              {/* <p className="text-white text-base font-semibold mt-4">
-                Business Hours
-              </p> */}
-              {/* <p className="text-white text-sm font-medium">
-                Monday - Friday: 9:00am to 6:00pm
-              </p> */}
             </div>
           </div>
           <div>
