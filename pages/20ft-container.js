@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import twentyFtContainer from "../public/twentyFtContainer.png";
 
 import PickUpService from "@/components/Pick-Up-Service";
@@ -10,6 +10,7 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import Quote from "@/components/Quote-modal";
 
 import Layout from "@/components/Layout";
+import { Link } from "react-scroll";
 
 export default function TwentyFtContainer() {
   return (
@@ -48,8 +49,12 @@ export default function TwentyFtContainer() {
             <p className="mt-2 font-semibold lg:text-base md:text-base sm:text-sm text-black">
               Security: Equipped with
               <Link
-                href="#"
-                className="underline pl-1 font-semibold lg:text-base md:text-base sm:text-sm text-gray"
+                to="security"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="underline pl-1 font-semibold lg:text-base md:text-base sm:text-sm text-gray cursor-pointer hover:text-blue"
               >
                 security features
               </Link>

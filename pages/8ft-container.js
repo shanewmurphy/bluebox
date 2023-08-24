@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import PickUpService from "@/components/Pick-Up-Service";
 import Security from "@/components/Security";
 import ContainerTerms from "@/components/Container-terms";
@@ -9,8 +9,7 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import Layout from "@/components/Layout";
 import Quote from "@/components/Quote-modal";
 
-import { Dialog, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Link } from "react-scroll";
 
 export default function EightFTContainer() {
   return (
@@ -47,8 +46,12 @@ export default function EightFTContainer() {
             <p className="mt-2 font-semibold lg:text-base md:text-base sm:text-sm text-black">
               Security: Equipped with
               <Link
-                href="#"
-                className="underline pl-1 font-semibold lg:text-base md:text-base sm:text-sm text-gray"
+                to="security"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="underline pl-1 font-semibold lg:text-base md:text-base sm:text-sm text-gray cursor-pointer hover:text-blue"
               >
                 security features
               </Link>

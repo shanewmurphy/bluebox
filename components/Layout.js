@@ -16,8 +16,11 @@ export default function Layout({ title, description, children }) {
         <div className="lg:hidden md:hidden sm:block">
           <MobileNav />
         </div>
+
         {children}
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   );

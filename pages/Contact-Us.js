@@ -27,8 +27,10 @@ export default function ContactUs() {
                 Blue Box Storage
               </h4>
               <address className="lg:text-2xl md:text-2xl sm:text-base font-semibold text-gray not-italic mb-8">
-                Units 24-48, Euro Business Park, Little Island, T45 WP96, County
-                Cork, Ireland.
+                Units 24-48, Euro Business Park, <br /> Little Island, T45 WP96,
+                <br />
+                County Cork, <br />
+                Ireland.
               </address>
               <h5 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black mb-2">
                 Call: 0214 450 450

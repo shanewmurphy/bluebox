@@ -12,8 +12,9 @@ export default function Footer() {
             </div>
             <div className="block">
               <p className="text-white text-sm font-semibold mt-2">
-                Units 24-48, Euro Business Park, Little Island, T45 WP96,
-                <p>Cork, Ireland.</p>
+                Units 24-48, Euro Business Park, <br /> Little Island, T45 WP96,
+                Cork, <br />
+                Ireland.
               </p>
               <p className="text-white font-bold text-xl mt-4">
                 Call: 0214 450 450

@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 export default function ContainerSizes() {
   return (
-    <div className="w-11/12 mx-auto lg:my-60 md:my-32 sm:mb-0 antialiased">
+    <div
+      className="w-11/12 mx-auto lg:my-60 md:my-32 sm:mb-0 antialiased"
+      id="containers"
+    >
       <div>
         <h2 className="text-center lg:text-7xl md:text-5xl sm:text-5xl text-black font-extrabold">
           Storage Options
