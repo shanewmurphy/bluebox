@@ -43,7 +43,7 @@ export default function AboutUs() {
               <h2 className="lg:text-5xl md:text-5xl sm:text-4xl text-center font-extrabold text-black lg:mb-8">
                 Variety of Storage Options
               </h2>
-              <div className="p-12">
+              <div className="lg:p-12 md:p-12 sm:p-4">
                 <Image
                   className="object-center"
                   src="/AboutContainers.png"

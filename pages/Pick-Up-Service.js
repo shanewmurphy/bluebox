@@ -14,7 +14,7 @@ export default function PickUpServicePage() {
         <div className="w-11/12 bg-bkgGray lg:rounded-2xl lg:py-16 lg:px-12 md:py-8 md:px-8 sm:py-4 sm:px-4 md:rounded-xl sm:rounded-md mx-auto mt-8 antialiased">
           <div className="flex lg:flex-row md:flex-col sm:flex-col lg:gap-32 md:gap-24 sm:gap-12">
             <div className="basis-3/5 antialiased">
-              <h2 className="lg:text-6xl md:text-6xl sm:text-4xl font-extrabold text-black mb-6 line_height_h2">
+              <h2 className="lg:text-6xl md:text-6xl sm:text-4xl font-extrabold text-black lg:mb-6 md:mb-6 sm:mb-4 line_height_h2">
                 Let us handle the logistics, saving you time and effort
               </h2>
               <p className="font-semibold lg:text-base md:text-base sm:text-sm text-gray">
@@ -23,7 +23,7 @@ export default function PickUpServicePage() {
                 our professional team will take care of collecting your
                 belongings and transporting them to our secure storage facility.
               </p>
-              <h4 className="font-bold text-blue lg:text-2xl md:text-3xl sm:text-base mt-4 line_height_h4">
+              <h4 className="font-extrabold text-blue lg:text-2xl md:text-3xl sm:text-base mt-4 line_height_h4">
                 This service is only available when you rent a storage container
                 with us
               </h4>
@@ -52,12 +52,12 @@ export default function PickUpServicePage() {
                 Our Pick-up Service option to take advantage of our hassle-free
                 transportation
               </h2>
-              <p className="font-semibold text-gray lg:text-xl md:text-xl sm:text-sm mb-2">
-                Please note that this service is exclusively available only to
+              <p className="font-bold text-black lg:text-xl md:text-xl sm:text-sm mb-2">
+                Please note that this service is only available only to
                 customers who rent a storage unit with us.
               </p>
               <p className="font-semibold text-gray lg:text-base md:text-base sm:text-sm">
-                Click on YES in quotation form & your address. Prices are
+                Click on YES in quotation form & add your address. Prices are
                 calculated based on distance and size of storage container
                 selected.
               </p>
