@@ -5,7 +5,6 @@ export default function ContactUs() {
   return (
     <div>
       <Layout title="Contact Us | Blue Box Storage Cork">
-        <div>
           <div className="w-11/12 mx-auto lg:py-16 lg:px-16 md:py-12 md:px-16 sm:px-4 sm:py-8 bg-gradient-to-r from-gradientBlue to-gradientWhite lg:rounded-xl md:rounded-md sm:rounded-md lg:mt-8 md:mt-8 sm:mt-4 antialiased">
             <div className="w-10/12 sm:w-full mx-auto antialiased">
               <Image
@@ -18,10 +17,9 @@ export default function ContactUs() {
                 may have.
               </h3>
             </div>
-          </div>
-        </div>
-        <div className="w-11/12 mx-auto lg:my-40 md:my-36 sm:my-24 antialiased">
-          <div className="grid lg:grid-cols-2 lg:gap-24 md:gap-24 sm:gap-24">
+          </div>   
+        <div className="w-9/12 mx-auto lg:my-40 md:my-36 sm:my-24 antialiased">
+          <div className="grid lg:grid-cols-2 lg:gap-16 md:gap-24 sm:gap-24">
             <div>
               <h4 className="lg:text-4xl md:text-4xl sm:text-3xl font-extrabold text-black mb-2">
                 Blue Box Storage
@@ -128,7 +126,7 @@ export default function ContactUs() {
                     border-transparent
                     focus:border-gray-500 focus:bg-white focus:ring-0
                   "
-                      rows="6"
+                      rows="4"
                     ></textarea>
                   </label>
                   <div>
