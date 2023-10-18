@@ -10,11 +10,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        body: ["Inter"],
-        sans: ["Inter"],
-        serif: ["Inter"],
-      },
+      
       screens: {
         sm: "358px",
       },
